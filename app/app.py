@@ -161,7 +161,6 @@ st.markdown(
         z-index: 1000;
     }}
     </style>
-    <div class="version-badge">Version {APP_VERSION}</div>
     """,
     unsafe_allow_html=True,
 )
