@@ -4,26 +4,29 @@ bundle:
   name: sqlwarehouse_to_lakebase_backend_comparison
 
 resources:
+  # Unity Catalog schema resource for demo tables
+  schemas:
+    demo_schema:
+      name: sqlw-to-lakebase-backend
+      catalog_name: max_howarth_demos
+      comment: "Schema for the SQL Warehouse vs Lakebase backend comparison demo"
+
   apps:
     sqlw_to_lakebase_backend:
       name: 'sqlw-to-lakebase-backend'
-      source_code_path: ./app # This assumes the app source code is at the root of the project.
+      source_code_path: ./app  # Assumes the app source code is at the root of the project.
 
 targets:
   dev:
-    # The default target uses 'mode: development' to create a development copy.
-    # - Deployed resources get prefixed with '[dev my_user_name]'
-    # - Any job schedules and triggers are paused by default.
-    # See also https://docs.databricks.com/dev-tools/bundles/deployment-modes.html.
     mode: development
     default: true
     workspace:
       host: https://e2-demo-field-eng.cloud.databricks.com
+
   prod:
     mode: production
     workspace:
       host: https://e2-demo-field-eng.cloud.databricks.com
-      # We explicitly specify /Workspace/Users/max.howarth@databricks.com to make sure we only have a single copy.
       root_path: /Workspace/Users/max.howarth@databricks.com/.bundle/${bundle.name}/${bundle.target}
     permissions:
       - user_name: max.howarth@databricks.com
