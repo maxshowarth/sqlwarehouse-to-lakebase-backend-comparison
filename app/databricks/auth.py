@@ -1,7 +1,7 @@
 from typing import Optional
 from databricks.sdk import WorkspaceClient
-from backend.config import get_config
-from backend.logging import get_logger
+from app.config import get_config
+from app.logging import get_logger
 
 class DatabricksAuthentication:
     """Handles Databricks authentication and client creation using AppConfig singleton."""
