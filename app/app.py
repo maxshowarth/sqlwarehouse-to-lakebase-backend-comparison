@@ -40,7 +40,13 @@ cat_sel = st.sidebar.selectbox("Category", cat_options)
 
 prod_search = st.sidebar.text_input("Product search (contains)")
 
-row_limit = st.sidebar.number_input("Max table rows", min_value=100, max_value=100000, value=2000, step=100)
+row_limit = st.sidebar.number_input(
+    "Max table rows", 
+    min_value=config.min_row_limit, 
+    max_value=config.max_row_limit, 
+    value=config.default_row_limit, 
+    step=100
+)
 slice_by = st.sidebar.radio("Slice chart by", ["None", "store", "category", "hour"], horizontal=True)
 
 # Normalize filters for the backend
@@ -133,7 +139,13 @@ rev_region = (
 st.bar_chart(rev_region, x="region", y="revenue", use_container_width=True)
 
 st.markdown("### Top products by revenue")
-top_n_rev = st.sidebar.slider("Top N (revenue)", min_value=5, max_value=30, value=10, step=1)
+top_n_rev = st.sidebar.slider(
+    "Top N (revenue)", 
+    min_value=config.min_top_n, 
+    max_value=config.max_top_n, 
+    value=config.default_top_n, 
+    step=1
+)
 top_prod_rev = (
     orders_df.groupby("product_name", as_index=False)["extended_price"].sum()
              .rename(columns={"extended_price": "revenue"})

@@ -406,21 +406,28 @@ def write_csv(path: str, rows: List[Dict], headers: List[str]) -> None:
 # -----------------------------
 
 def main(argv: Optional[List[str]] = None) -> int:
-    # Get default output directory from config if available
+    # Get defaults from config if available
     default_output_dir = "sample_data"  # fallback
+    default_scale = "small"  # fallback
+    default_days = 14  # fallback
+    default_seed = 42  # fallback
+    
     if get_config:
         try:
             config = get_config()
             default_output_dir = config.data_dir
+            default_scale = config.default_seed_scale
+            default_days = config.default_seed_days
+            default_seed = config.default_seed_value
         except Exception:
-            pass  # Use fallback if config fails
+            pass  # Use fallbacks if config fails
     
     parser = argparse.ArgumentParser(description="Generate fake retail data to CSVs.")
-    parser.add_argument("--scale", choices=SCALES.keys(), default="small")
-    parser.add_argument("--days", type=int, default=14, help="Number of days of order history.")
+    parser.add_argument("--scale", choices=SCALES.keys(), default=default_scale)
+    parser.add_argument("--days", type=int, default=default_days, help="Number of days of order history.")
     parser.add_argument("--start-date", type=str, default=None, help="YYYY-MM-DD (defaults to today - days + 1)")
     parser.add_argument("--output-dir", type=str, default=default_output_dir)
-    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--seed", type=int, default=default_seed)
     parser.add_argument("--no-overwrite", action="store_true", help="Fail if CSVs already exist.")
     args = parser.parse_args(argv)
 
