@@ -23,6 +23,9 @@ class AppConfig(BaseSettings):
     # Application
     app_env: str = "local"
     log_level: str = "DEBUG"
+    
+    # Data paths
+    data_dir: str = "sample_data"
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 

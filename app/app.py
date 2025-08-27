@@ -5,6 +5,9 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+# Configuration
+from config import get_config
+
 # DataAccess interface + CSV implementation
 from backend.data_access.csv_backend import CsvDataAccess  # conforms to DataAccess
 # (If you later add a factory, you can switch to: from data_access.util import get_data_access)
@@ -12,9 +15,10 @@ from backend.data_access.csv_backend import CsvDataAccess  # conforms to DataAcc
 st.set_page_config(page_title="Store Orders — CSV via DataAccess", layout="wide")
 
 # -----------------------------------------------------------------------------
-# Backend selection (CSV for now). We point at your existing folder:
+# Backend selection (CSV for now). We point at your configured data directory:
 # -----------------------------------------------------------------------------
-DATA_DIR = Path("backend/sample_data")
+config = get_config()
+DATA_DIR = Path(config.data_dir)
 da = CsvDataAccess(data_dir=DATA_DIR)
 
 # -----------------------------------------------------------------------------
@@ -143,8 +147,8 @@ st.bar_chart(top_prod_rev, x="product_name", y="revenue", use_container_width=Tr
 # -----------------------------------------------------------------------------
 with st.expander("Data source & architecture"):
     st.write(
-        "This page now reads data via a **DataAccess** interface (CSV-backed for local dev) "
-        "from `backend/sample_data/`. The UI is decoupled from the data source, so we can later "
+        f"This page now reads data via a **DataAccess** interface (CSV-backed for local dev) "
+        f"from `{config.data_dir}/`. The UI is decoupled from the data source, so we can later "
         "swap to **SQL Warehouse** or **Lakebase** by changing the implementation behind the interface."
     )
 

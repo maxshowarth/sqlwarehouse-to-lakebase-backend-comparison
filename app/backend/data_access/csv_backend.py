@@ -9,6 +9,16 @@ import pandas as pd
 
 from .interface import DataAccess, KpiTotals
 
+# Import config for default data directory
+try:
+    from ...config import get_config
+except ImportError:
+    # Fallback for relative imports
+    import sys
+    from pathlib import Path
+    sys.path.append(str(Path(__file__).parent.parent.parent))
+    from config import get_config
+
 
 @dataclass
 class _Tables:
@@ -28,7 +38,10 @@ class CsvDataAccess(DataAccess):
       (so each UI interaction triggers new work, mirroring a DB query).
     """
 
-    def __init__(self, data_dir: str | Path = "sample_data") -> None:
+    def __init__(self, data_dir: str | Path = None) -> None:
+        if data_dir is None:
+            config = get_config()
+            data_dir = config.data_dir
         self.data_dir = Path(data_dir)
         self._tables = self._load_tables(self.data_dir)
 
