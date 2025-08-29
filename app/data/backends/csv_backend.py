@@ -7,7 +7,7 @@ from typing import Literal, Optional, Tuple
 
 import pandas as pd
 
-from .interface import DataAccess, KpiTotals
+from ..interface import DataAccess, KpiTotals
 
 # Import config for default data directory
 try:
