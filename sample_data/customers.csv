@@ -1,0 +1,2001 @@
+customer_id,segment,signup_ts,home_region,home_city
+1,loyal,2021-12-13T17:39:58,Central,Dallas
+2,loyal,2021-10-12T17:39:58,East,Ottawa
+3,casual,2024-12-26T17:39:58,Central,Chicago
+4,bargain,2022-09-19T17:39:58,Central,Dallas
+5,loyal,2021-09-21T17:39:58,East,Montreal
+6,casual,2023-05-21T17:39:58,Central,Houston
+7,loyal,2021-09-15T17:39:58,East,Montreal
+8,casual,2022-11-15T17:39:58,Central,Denver
+9,bargain,2024-12-05T17:39:58,Central,Denver
+10,casual,2023-08-17T17:39:58,East,Boston
+11,casual,2022-08-28T17:39:58,Central,Dallas
+12,bargain,2023-02-14T17:39:58,Central,Denver
+13,casual,2025-03-15T17:39:58,Central,Houston
+14,bargain,2025-06-14T17:39:58,East,New York
+15,bargain,2021-10-13T17:39:58,East,New York
+16,casual,2022-09-08T17:39:58,East,Boston
+17,casual,2022-06-10T17:39:58,West,Portland
+18,loyal,2023-04-23T17:39:58,Central,Dallas
+19,casual,2021-11-22T17:39:58,West,Calgary
+20,bargain,2022-02-19T17:39:58,West,Calgary
+21,casual,2023-03-04T17:39:58,Central,Minneapolis
+22,casual,2024-06-04T17:39:58,East,Boston
+23,casual,2022-05-05T17:39:58,East,New York
+24,casual,2023-07-12T17:39:58,East,Boston
+25,loyal,2024-02-09T17:39:58,Central,Denver
+26,casual,2021-12-30T17:39:58,Central,Minneapolis
+27,loyal,2023-05-19T17:39:58,Central,Minneapolis
+28,loyal,2023-01-05T17:39:58,Central,Houston
+29,premium,2023-11-29T17:39:58,East,Ottawa
+30,casual,2021-10-23T17:39:58,East,New York
+31,casual,2023-11-13T17:39:58,West,Seattle
+32,loyal,2024-10-14T17:39:58,Central,Kansas City
+33,loyal,2024-10-21T17:39:58,Central,Minneapolis
+34,loyal,2022-11-07T17:39:58,Central,Dallas
+35,loyal,2024-08-10T17:39:58,East,Ottawa
+36,casual,2024-10-16T17:39:58,Central,Houston
+37,bargain,2025-04-12T17:39:58,Central,Minneapolis
+38,casual,2024-10-24T17:39:58,West,San Francisco
+39,loyal,2022-09-29T17:39:58,Central,Minneapolis
+40,casual,2022-10-27T17:39:58,Central,Kansas City
+41,casual,2024-08-22T17:39:58,Central,Chicago
+42,casual,2023-12-10T17:39:58,West,Seattle
+43,casual,2023-12-17T17:39:58,West,San Jose
+44,loyal,2022-10-20T17:39:58,Central,Minneapolis
+45,casual,2024-12-09T17:39:58,West,San Jose
+46,bargain,2022-07-16T17:39:58,East,Philadelphia
+47,loyal,2023-02-08T17:39:58,West,Calgary
+48,bargain,2021-11-30T17:39:58,Central,Denver
+49,casual,2023-01-21T17:39:58,Central,Denver
+50,bargain,2024-12-02T17:39:58,West,San Francisco
+51,loyal,2022-04-13T17:39:58,West,Seattle
+52,casual,2022-01-12T17:39:58,East,Montreal
+53,bargain,2024-06-02T17:39:58,East,Boston
+54,loyal,2023-08-12T17:39:58,West,San Jose
+55,casual,2024-08-20T17:39:58,East,Montreal
+56,loyal,2023-12-16T17:39:58,East,Philadelphia
+57,casual,2025-01-16T17:39:58,East,Ottawa
+58,bargain,2024-01-10T17:39:58,Central,Denver
+59,casual,2024-11-01T17:39:58,West,Calgary
+60,bargain,2024-03-11T17:39:58,East,Philadelphia
+61,casual,2022-11-01T17:39:58,East,Toronto
+62,casual,2022-01-22T17:39:58,East,Philadelphia
+63,bargain,2022-01-10T17:39:58,Central,Denver
+64,bargain,2022-09-09T17:39:58,West,San Francisco
+65,premium,2023-01-11T17:39:58,East,Philadelphia
+66,bargain,2025-07-25T17:39:58,Central,Minneapolis
+67,loyal,2023-01-04T17:39:58,East,New York
+68,bargain,2025-03-23T17:39:58,East,Philadelphia
+69,bargain,2023-03-04T17:39:58,Central,Dallas
+70,bargain,2023-10-08T17:39:58,Central,Houston
+71,casual,2022-05-04T17:39:58,Central,Minneapolis
+72,bargain,2021-10-02T17:39:58,Central,Houston
+73,bargain,2022-01-25T17:39:58,West,Vancouver
+74,premium,2024-11-18T17:39:58,Central,Denver
+75,casual,2023-01-08T17:39:58,West,San Francisco
+76,premium,2021-09-19T17:39:58,Central,Dallas
+77,bargain,2024-09-08T17:39:58,East,Philadelphia
+78,casual,2021-11-28T17:39:58,Central,Denver
+79,premium,2021-11-08T17:39:58,West,Portland
+80,loyal,2023-05-11T17:39:58,West,Vancouver
+81,casual,2024-04-07T17:39:58,East,Ottawa
+82,casual,2025-01-17T17:39:58,West,Calgary
+83,loyal,2024-11-01T17:39:58,Central,Denver
+84,casual,2023-01-31T17:39:58,East,Ottawa
+85,premium,2024-11-26T17:39:58,East,Philadelphia
+86,casual,2024-11-02T17:39:58,Central,Kansas City
+87,bargain,2025-01-29T17:39:58,West,San Francisco
+88,casual,2023-10-28T17:39:58,West,Vancouver
+89,bargain,2023-06-08T17:39:58,Central,Dallas
+90,casual,2021-10-13T17:39:58,West,Calgary
+91,loyal,2025-07-13T17:39:58,East,Montreal
+92,bargain,2023-08-11T17:39:58,West,San Francisco
+93,premium,2024-09-23T17:39:58,East,Ottawa
+94,bargain,2023-02-05T17:39:58,East,Ottawa
+95,bargain,2024-10-17T17:39:58,West,Vancouver
+96,casual,2023-06-05T17:39:58,East,Ottawa
+97,casual,2024-10-17T17:39:58,Central,Houston
+98,loyal,2024-03-09T17:39:58,East,New York
+99,casual,2022-03-04T17:39:58,East,Ottawa
+100,bargain,2021-11-20T17:39:58,East,New York
+101,loyal,2022-03-06T17:39:58,West,San Jose
+102,loyal,2023-12-03T17:39:58,East,Toronto
+103,casual,2023-06-01T17:39:58,West,San Francisco
+104,casual,2022-04-01T17:39:58,Central,Kansas City
+105,casual,2023-10-21T17:39:58,West,Portland
+106,loyal,2023-07-13T17:39:58,East,Toronto
+107,casual,2025-03-03T17:39:58,West,San Francisco
+108,casual,2024-02-10T17:39:58,West,Vancouver
+109,casual,2022-09-27T17:39:58,West,San Francisco
+110,casual,2023-04-02T17:39:58,East,Montreal
+111,loyal,2021-12-27T17:39:58,Central,Denver
+112,casual,2024-01-09T17:39:58,East,Boston
+113,premium,2024-06-09T17:39:58,West,San Jose
+114,casual,2023-09-30T17:39:58,West,San Jose
+115,loyal,2021-10-05T17:39:58,East,Ottawa
+116,bargain,2023-02-16T17:39:58,Central,Kansas City
+117,casual,2024-03-17T17:39:58,West,Vancouver
+118,loyal,2023-01-14T17:39:58,Central,Denver
+119,bargain,2021-11-04T17:39:58,West,Portland
+120,casual,2024-11-28T17:39:58,East,Boston
+121,casual,2025-07-07T17:39:58,West,Calgary
+122,bargain,2022-09-05T17:39:58,Central,Minneapolis
+123,casual,2024-08-23T17:39:58,East,Philadelphia
+124,bargain,2024-12-01T17:39:58,East,Philadelphia
+125,casual,2023-03-04T17:39:58,West,Portland
+126,loyal,2022-05-07T17:39:58,West,Portland
+127,casual,2022-09-18T17:39:58,Central,Chicago
+128,casual,2024-08-23T17:39:58,Central,Minneapolis
+129,loyal,2022-05-12T17:39:58,Central,Denver
+130,casual,2022-09-22T17:39:58,West,Seattle
+131,casual,2025-04-27T17:39:58,West,Seattle
+132,premium,2024-07-29T17:39:58,Central,Dallas
+133,casual,2021-11-26T17:39:58,West,San Jose
+134,premium,2023-03-31T17:39:58,Central,Dallas
+135,loyal,2025-02-21T17:39:58,Central,Houston
+136,premium,2021-10-21T17:39:58,West,San Jose
+137,premium,2022-09-08T17:39:58,West,Seattle
+138,bargain,2022-12-21T17:39:58,Central,Denver
+139,loyal,2025-02-04T17:39:58,Central,Houston
+140,casual,2024-06-15T17:39:58,West,Portland
+141,casual,2022-02-01T17:39:58,Central,Kansas City
+142,premium,2022-10-24T17:39:58,Central,Minneapolis
+143,bargain,2022-07-07T17:39:58,West,Calgary
+144,premium,2025-07-17T17:39:58,West,Seattle
+145,casual,2022-07-17T17:39:58,West,Seattle
+146,casual,2023-09-13T17:39:58,East,New York
+147,casual,2023-11-09T17:39:58,East,Toronto
+148,casual,2023-03-24T17:39:58,East,Boston
+149,casual,2024-01-04T17:39:58,West,Seattle
+150,bargain,2023-04-07T17:39:58,West,San Jose
+151,loyal,2025-02-07T17:39:58,Central,Chicago
+152,bargain,2022-01-02T17:39:58,East,Boston
+153,casual,2022-05-25T17:39:58,West,San Jose
+154,casual,2024-04-02T17:39:58,East,Boston
+155,casual,2023-10-01T17:39:58,Central,Chicago
+156,premium,2025-02-28T17:39:58,Central,Dallas
+157,casual,2024-12-19T17:39:58,West,San Jose
+158,casual,2022-12-19T17:39:58,West,San Francisco
+159,premium,2023-07-28T17:39:58,West,San Jose
+160,casual,2023-11-07T17:39:58,West,San Francisco
+161,bargain,2024-09-11T17:39:58,West,Vancouver
+162,loyal,2021-09-02T17:39:58,Central,Kansas City
+163,casual,2024-09-30T17:39:58,West,Portland
+164,loyal,2023-05-11T17:39:58,West,Portland
+165,bargain,2024-02-14T17:39:58,East,Philadelphia
+166,bargain,2023-04-24T17:39:58,West,Vancouver
+167,casual,2022-06-30T17:39:58,East,Ottawa
+168,casual,2024-10-17T17:39:58,Central,Denver
+169,casual,2024-11-05T17:39:58,West,Seattle
+170,loyal,2021-09-24T17:39:58,Central,Houston
+171,loyal,2022-04-25T17:39:58,East,New York
+172,casual,2025-03-20T17:39:58,West,Vancouver
+173,casual,2024-11-09T17:39:58,East,Toronto
+174,premium,2025-05-04T17:39:58,Central,Denver
+175,casual,2022-05-12T17:39:58,West,Seattle
+176,casual,2022-10-18T17:39:58,East,Toronto
+177,casual,2024-08-11T17:39:58,East,Toronto
+178,casual,2024-01-04T17:39:58,West,Portland
+179,loyal,2022-02-19T17:39:58,West,Vancouver
+180,casual,2023-12-04T17:39:58,West,Calgary
+181,casual,2025-03-28T17:39:58,East,Toronto
+182,casual,2023-03-25T17:39:58,Central,Dallas
+183,premium,2022-01-16T17:39:58,East,Boston
+184,bargain,2023-06-08T17:39:58,East,New York
+185,bargain,2022-07-11T17:39:58,Central,Chicago
+186,casual,2022-10-06T17:39:58,Central,Minneapolis
+187,casual,2025-06-07T17:39:58,Central,Dallas
+188,casual,2024-01-02T17:39:58,West,Vancouver
+189,bargain,2023-07-29T17:39:58,Central,Minneapolis
+190,casual,2025-01-06T17:39:58,West,Seattle
+191,bargain,2022-08-03T17:39:58,West,Portland
+192,loyal,2024-05-07T17:39:58,East,New York
+193,casual,2024-08-09T17:39:58,Central,Houston
+194,casual,2021-09-01T17:39:58,East,Philadelphia
+195,premium,2023-08-10T17:39:58,East,New York
+196,premium,2022-06-03T17:39:58,East,Boston
+197,casual,2023-11-06T17:39:58,Central,Minneapolis
+198,casual,2025-04-06T17:39:58,West,Vancouver
+199,casual,2022-08-17T17:39:58,West,Vancouver
+200,bargain,2024-06-13T17:39:58,Central,Minneapolis
+201,premium,2024-08-01T17:39:58,Central,Kansas City
+202,casual,2025-06-16T17:39:58,Central,Denver
+203,bargain,2024-12-15T17:39:58,East,Boston
+204,bargain,2023-06-26T17:39:58,Central,Denver
+205,casual,2022-04-17T17:39:58,East,Toronto
+206,premium,2024-10-24T17:39:58,Central,Houston
+207,premium,2021-12-29T17:39:58,East,Toronto
+208,bargain,2024-08-08T17:39:58,East,Philadelphia
+209,bargain,2022-02-20T17:39:58,East,Ottawa
+210,bargain,2022-04-11T17:39:58,West,Calgary
+211,casual,2021-09-19T17:39:58,Central,Houston
+212,premium,2025-07-27T17:39:58,West,Calgary
+213,casual,2022-05-25T17:39:58,East,Toronto
+214,casual,2022-02-24T17:39:58,East,Philadelphia
+215,casual,2022-10-18T17:39:58,East,New York
+216,casual,2024-03-30T17:39:58,East,New York
+217,bargain,2022-01-05T17:39:58,Central,Dallas
+218,loyal,2021-10-27T17:39:58,West,Calgary
+219,casual,2025-07-07T17:39:58,Central,Chicago
+220,casual,2025-03-14T17:39:58,West,Calgary
+221,casual,2025-07-28T17:39:58,West,Calgary
+222,premium,2023-03-24T17:39:58,Central,Kansas City
+223,casual,2023-06-16T17:39:58,Central,Chicago
+224,bargain,2022-11-22T17:39:58,Central,Denver
+225,casual,2021-09-22T17:39:58,East,Ottawa
+226,casual,2025-05-23T17:39:58,Central,Denver
+227,casual,2024-12-28T17:39:58,Central,Houston
+228,bargain,2024-09-04T17:39:58,West,San Francisco
+229,loyal,2023-09-07T17:39:58,East,New York
+230,casual,2025-05-28T17:39:58,East,Toronto
+231,bargain,2022-03-05T17:39:58,East,Boston
+232,casual,2025-01-04T17:39:58,West,Vancouver
+233,loyal,2021-09-02T17:39:58,West,San Francisco
+234,loyal,2024-02-03T17:39:58,East,Montreal
+235,casual,2025-01-15T17:39:58,Central,Dallas
+236,casual,2022-10-29T17:39:58,East,Montreal
+237,casual,2023-03-08T17:39:58,Central,Denver
+238,casual,2022-03-19T17:39:58,East,Ottawa
+239,casual,2024-06-02T17:39:58,West,Vancouver
+240,bargain,2022-12-04T17:39:58,Central,Denver
+241,casual,2022-12-09T17:39:58,Central,Chicago
+242,loyal,2025-01-25T17:39:58,East,Philadelphia
+243,bargain,2023-07-02T17:39:58,Central,Dallas
+244,casual,2023-01-30T17:39:58,Central,Dallas
+245,casual,2024-02-07T17:39:58,Central,Chicago
+246,casual,2025-03-26T17:39:58,Central,Minneapolis
+247,casual,2025-01-13T17:39:58,East,Ottawa
+248,premium,2023-04-05T17:39:58,Central,Minneapolis
+249,casual,2022-06-23T17:39:58,East,Boston
+250,premium,2023-03-26T17:39:58,Central,Minneapolis
+251,bargain,2022-05-15T17:39:58,East,Toronto
+252,casual,2025-02-19T17:39:58,Central,Houston
+253,loyal,2022-10-06T17:39:58,East,New York
+254,premium,2021-10-12T17:39:58,East,Montreal
+255,casual,2023-01-23T17:39:58,West,Vancouver
+256,casual,2024-07-01T17:39:58,West,Seattle
+257,casual,2021-09-30T17:39:58,Central,Denver
+258,casual,2022-03-30T17:39:58,East,Boston
+259,casual,2025-02-02T17:39:58,East,New York
+260,bargain,2023-10-02T17:39:58,Central,Minneapolis
+261,bargain,2025-07-05T17:39:58,East,Toronto
+262,bargain,2022-08-25T17:39:58,East,Montreal
+263,casual,2024-09-27T17:39:58,West,San Francisco
+264,premium,2025-01-06T17:39:58,East,Montreal
+265,bargain,2023-12-23T17:39:58,East,New York
+266,casual,2024-02-06T17:39:58,Central,Chicago
+267,casual,2022-03-01T17:39:58,Central,Minneapolis
+268,casual,2023-04-27T17:39:58,West,Portland
+269,casual,2021-09-09T17:39:58,East,Ottawa
+270,casual,2021-09-15T17:39:58,Central,Houston
+271,bargain,2024-01-27T17:39:58,East,Toronto
+272,casual,2023-11-18T17:39:58,West,Portland
+273,casual,2021-09-27T17:39:58,Central,Kansas City
+274,premium,2023-11-23T17:39:58,West,Seattle
+275,bargain,2024-01-26T17:39:58,Central,Houston
+276,casual,2025-01-29T17:39:58,East,Ottawa
+277,bargain,2022-11-11T17:39:58,West,San Francisco
+278,bargain,2022-09-09T17:39:58,Central,Denver
+279,casual,2022-09-27T17:39:58,West,Portland
+280,casual,2025-06-01T17:39:58,East,Montreal
+281,casual,2024-03-07T17:39:58,West,Vancouver
+282,casual,2024-06-18T17:39:58,West,Portland
+283,loyal,2023-05-10T17:39:58,Central,Minneapolis
+284,casual,2025-05-29T17:39:58,West,Calgary
+285,casual,2023-01-29T17:39:58,Central,Minneapolis
+286,casual,2022-06-27T17:39:58,Central,Minneapolis
+287,casual,2021-09-19T17:39:58,West,Portland
+288,casual,2025-04-20T17:39:58,West,San Francisco
+289,loyal,2024-05-03T17:39:58,East,Boston
+290,loyal,2024-01-26T17:39:58,East,Boston
+291,casual,2021-10-02T17:39:58,East,New York
+292,loyal,2024-08-10T17:39:58,West,Calgary
+293,loyal,2024-03-01T17:39:58,West,Seattle
+294,casual,2021-12-22T17:39:58,Central,Kansas City
+295,casual,2023-01-02T17:39:58,Central,Houston
+296,loyal,2021-10-13T17:39:58,Central,Houston
+297,casual,2022-04-20T17:39:58,East,Toronto
+298,loyal,2023-06-25T17:39:58,East,Ottawa
+299,casual,2023-12-30T17:39:58,East,Montreal
+300,casual,2025-03-22T17:39:58,West,San Francisco
+301,bargain,2023-10-04T17:39:58,Central,Kansas City
+302,casual,2021-12-04T17:39:58,Central,Kansas City
+303,bargain,2024-03-25T17:39:58,West,San Jose
+304,casual,2021-11-16T17:39:58,East,Toronto
+305,loyal,2025-06-08T17:39:58,West,Calgary
+306,casual,2023-03-26T17:39:58,Central,Houston
+307,bargain,2022-04-23T17:39:58,East,New York
+308,bargain,2023-08-28T17:39:58,East,Boston
+309,loyal,2022-08-01T17:39:58,West,Calgary
+310,loyal,2023-07-27T17:39:58,Central,Kansas City
+311,casual,2022-06-13T17:39:58,West,Calgary
+312,bargain,2024-11-10T17:39:58,West,San Francisco
+313,premium,2024-07-21T17:39:58,East,Montreal
+314,casual,2025-01-29T17:39:58,Central,Kansas City
+315,casual,2023-11-10T17:39:58,West,Calgary
+316,loyal,2024-02-13T17:39:58,Central,Houston
+317,casual,2022-12-10T17:39:58,Central,Denver
+318,premium,2022-04-29T17:39:58,East,Montreal
+319,loyal,2024-06-27T17:39:58,West,San Francisco
+320,casual,2022-08-10T17:39:58,East,Toronto
+321,premium,2024-10-22T17:39:58,West,Seattle
+322,bargain,2022-05-21T17:39:58,Central,Chicago
+323,bargain,2023-10-22T17:39:58,Central,Dallas
+324,casual,2022-11-05T17:39:58,West,Vancouver
+325,casual,2022-01-08T17:39:58,West,Portland
+326,bargain,2024-05-28T17:39:58,Central,Houston
+327,casual,2024-09-09T17:39:58,West,San Jose
+328,casual,2022-02-18T17:39:58,West,Seattle
+329,premium,2023-03-05T17:39:58,Central,Chicago
+330,loyal,2025-05-14T17:39:58,Central,Denver
+331,bargain,2025-07-02T17:39:58,East,Philadelphia
+332,loyal,2025-06-24T17:39:58,East,Boston
+333,casual,2024-03-08T17:39:58,East,Ottawa
+334,casual,2024-11-08T17:39:58,Central,Houston
+335,casual,2023-11-12T17:39:58,East,Montreal
+336,casual,2023-12-13T17:39:58,West,Portland
+337,casual,2022-08-22T17:39:58,East,Montreal
+338,premium,2023-08-29T17:39:58,East,Boston
+339,casual,2024-07-10T17:39:58,Central,Houston
+340,casual,2024-04-19T17:39:58,Central,Denver
+341,loyal,2025-06-16T17:39:58,West,Seattle
+342,bargain,2023-07-11T17:39:58,West,Vancouver
+343,casual,2021-12-27T17:39:58,West,San Francisco
+344,loyal,2025-04-22T17:39:58,East,Montreal
+345,loyal,2024-12-21T17:39:58,West,Calgary
+346,casual,2021-09-17T17:39:58,West,Vancouver
+347,loyal,2024-11-19T17:39:58,Central,Chicago
+348,casual,2024-09-20T17:39:58,Central,Kansas City
+349,casual,2025-07-11T17:39:58,East,Ottawa
+350,loyal,2021-11-12T17:39:58,East,New York
+351,casual,2024-10-23T17:39:58,East,Montreal
+352,casual,2022-02-11T17:39:58,West,San Jose
+353,casual,2022-10-15T17:39:58,West,Vancouver
+354,premium,2022-08-24T17:39:58,West,Portland
+355,casual,2023-04-13T17:39:58,Central,Kansas City
+356,premium,2022-10-18T17:39:58,West,San Jose
+357,casual,2023-09-22T17:39:58,East,Toronto
+358,premium,2025-01-29T17:39:58,West,Calgary
+359,casual,2022-10-23T17:39:58,East,Ottawa
+360,bargain,2025-02-27T17:39:58,West,San Jose
+361,casual,2021-12-19T17:39:58,West,Portland
+362,casual,2022-12-23T17:39:58,Central,Houston
+363,casual,2023-12-13T17:39:58,West,Vancouver
+364,bargain,2023-03-11T17:39:58,East,Philadelphia
+365,bargain,2025-07-11T17:39:58,West,Vancouver
+366,casual,2024-08-15T17:39:58,East,Ottawa
+367,bargain,2024-01-28T17:39:58,Central,Minneapolis
+368,casual,2023-08-29T17:39:58,West,Portland
+369,casual,2023-01-08T17:39:58,Central,Chicago
+370,bargain,2022-11-24T17:39:58,Central,Kansas City
+371,casual,2024-12-11T17:39:58,East,Boston
+372,casual,2024-09-07T17:39:58,East,New York
+373,loyal,2022-05-22T17:39:58,East,Toronto
+374,bargain,2023-06-14T17:39:58,West,San Jose
+375,bargain,2021-09-28T17:39:58,East,New York
+376,premium,2022-11-14T17:39:58,East,Boston
+377,casual,2023-02-09T17:39:58,West,San Francisco
+378,casual,2023-10-26T17:39:58,Central,Kansas City
+379,bargain,2022-05-07T17:39:58,East,Montreal
+380,loyal,2023-09-07T17:39:58,West,Calgary
+381,casual,2022-02-10T17:39:58,East,Ottawa
+382,casual,2024-03-08T17:39:58,East,Ottawa
+383,casual,2021-12-25T17:39:58,East,Ottawa
+384,casual,2025-04-10T17:39:58,East,Montreal
+385,bargain,2022-12-12T17:39:58,West,San Jose
+386,casual,2022-10-28T17:39:58,West,Vancouver
+387,loyal,2025-04-18T17:39:58,Central,Houston
+388,casual,2023-06-16T17:39:58,East,Ottawa
+389,casual,2023-01-02T17:39:58,West,Vancouver
+390,bargain,2025-01-31T17:39:58,East,Toronto
+391,premium,2024-11-29T17:39:58,Central,Houston
+392,casual,2025-06-24T17:39:58,East,Ottawa
+393,loyal,2022-06-15T17:39:58,Central,Denver
+394,loyal,2022-02-09T17:39:58,West,San Jose
+395,loyal,2024-06-02T17:39:58,East,Montreal
+396,bargain,2023-07-17T17:39:58,Central,Houston
+397,loyal,2023-09-20T17:39:58,West,San Francisco
+398,bargain,2022-12-05T17:39:58,East,Montreal
+399,casual,2023-01-16T17:39:58,Central,Kansas City
+400,casual,2025-07-26T17:39:58,East,Boston
+401,loyal,2022-07-05T17:39:58,East,Philadelphia
+402,bargain,2025-04-28T17:39:58,East,New York
+403,casual,2023-04-14T17:39:58,Central,Dallas
+404,casual,2024-07-11T17:39:58,East,Boston
+405,bargain,2023-01-06T17:39:58,Central,Dallas
+406,casual,2023-09-07T17:39:58,West,Calgary
+407,bargain,2022-01-11T17:39:58,Central,Denver
+408,casual,2023-01-20T17:39:58,East,New York
+409,premium,2024-10-28T17:39:58,East,Montreal
+410,loyal,2025-04-22T17:39:58,West,San Jose
+411,premium,2022-11-14T17:39:58,Central,Minneapolis
+412,casual,2022-05-03T17:39:58,West,Calgary
+413,loyal,2023-05-29T17:39:58,West,Vancouver
+414,bargain,2022-10-02T17:39:58,East,Philadelphia
+415,bargain,2021-09-11T17:39:58,Central,Minneapolis
+416,premium,2023-08-28T17:39:58,Central,Chicago
+417,casual,2024-10-21T17:39:58,Central,Dallas
+418,casual,2022-09-15T17:39:58,East,Ottawa
+419,bargain,2023-10-27T17:39:58,East,Montreal
+420,casual,2024-05-11T17:39:58,East,Ottawa
+421,loyal,2023-12-13T17:39:58,East,Ottawa
+422,premium,2021-12-07T17:39:58,East,Boston
+423,loyal,2022-07-15T17:39:58,West,San Jose
+424,bargain,2024-12-06T17:39:58,Central,Kansas City
+425,loyal,2022-04-24T17:39:58,East,Toronto
+426,loyal,2023-03-29T17:39:58,East,Ottawa
+427,bargain,2023-03-18T17:39:58,East,Philadelphia
+428,casual,2025-06-09T17:39:58,East,New York
+429,casual,2025-04-06T17:39:58,West,Calgary
+430,casual,2021-09-30T17:39:58,West,Portland
+431,casual,2023-12-04T17:39:58,West,Calgary
+432,bargain,2023-07-27T17:39:58,East,New York
+433,bargain,2021-10-16T17:39:58,West,San Jose
+434,loyal,2021-12-13T17:39:58,West,Calgary
+435,casual,2021-09-04T17:39:58,West,San Jose
+436,casual,2023-06-10T17:39:58,East,New York
+437,casual,2022-06-26T17:39:58,East,Philadelphia
+438,loyal,2024-06-10T17:39:58,East,Philadelphia
+439,bargain,2022-01-10T17:39:58,Central,Dallas
+440,loyal,2022-04-12T17:39:58,East,Philadelphia
+441,casual,2024-06-29T17:39:58,East,Boston
+442,casual,2025-02-28T17:39:58,West,Calgary
+443,casual,2022-09-12T17:39:58,West,Calgary
+444,loyal,2024-01-06T17:39:58,West,San Francisco
+445,bargain,2022-04-21T17:39:58,West,Seattle
+446,bargain,2022-12-18T17:39:58,West,Portland
+447,premium,2024-09-19T17:39:58,West,Vancouver
+448,loyal,2022-01-27T17:39:58,East,New York
+449,bargain,2022-10-30T17:39:58,East,Philadelphia
+450,bargain,2025-03-03T17:39:58,East,Philadelphia
+451,premium,2024-05-06T17:39:58,Central,Minneapolis
+452,casual,2022-09-30T17:39:58,East,New York
+453,casual,2023-04-26T17:39:58,East,Montreal
+454,casual,2021-11-10T17:39:58,West,Seattle
+455,premium,2024-05-09T17:39:58,Central,Houston
+456,premium,2022-12-01T17:39:58,East,Montreal
+457,loyal,2024-12-08T17:39:58,East,New York
+458,loyal,2021-12-23T17:39:58,Central,Dallas
+459,loyal,2025-05-10T17:39:58,East,Boston
+460,casual,2024-12-10T17:39:58,Central,Chicago
+461,casual,2023-12-29T17:39:58,East,Ottawa
+462,bargain,2022-09-11T17:39:58,East,Philadelphia
+463,casual,2025-05-02T17:39:58,Central,Chicago
+464,loyal,2023-10-13T17:39:58,East,Boston
+465,loyal,2022-07-25T17:39:58,West,Seattle
+466,loyal,2024-05-25T17:39:58,East,New York
+467,bargain,2023-03-15T17:39:58,West,Calgary
+468,loyal,2023-02-20T17:39:58,West,San Jose
+469,casual,2021-09-24T17:39:58,West,Calgary
+470,casual,2023-09-20T17:39:58,Central,Kansas City
+471,bargain,2024-07-31T17:39:58,West,Vancouver
+472,bargain,2022-05-10T17:39:58,East,New York
+473,casual,2023-05-28T17:39:58,Central,Chicago
+474,casual,2023-10-22T17:39:58,Central,Chicago
+475,casual,2022-07-31T17:39:58,East,New York
+476,bargain,2025-03-23T17:39:58,East,Montreal
+477,casual,2025-03-04T17:39:58,East,New York
+478,bargain,2023-12-15T17:39:58,East,New York
+479,casual,2025-02-03T17:39:58,Central,Minneapolis
+480,bargain,2023-05-13T17:39:58,Central,Chicago
+481,loyal,2024-09-13T17:39:58,West,San Francisco
+482,bargain,2023-05-22T17:39:58,West,Calgary
+483,casual,2022-01-09T17:39:58,East,Philadelphia
+484,casual,2021-12-12T17:39:58,East,Ottawa
+485,casual,2022-06-20T17:39:58,West,San Jose
+486,loyal,2022-05-15T17:39:58,West,Vancouver
+487,casual,2025-02-06T17:39:58,East,Montreal
+488,casual,2023-08-26T17:39:58,East,Ottawa
+489,casual,2024-10-12T17:39:58,East,Montreal
+490,casual,2024-02-29T17:39:58,West,San Jose
+491,bargain,2022-05-26T17:39:58,West,Calgary
+492,loyal,2021-12-18T17:39:58,East,Toronto
+493,casual,2025-03-15T17:39:58,Central,Kansas City
+494,casual,2022-04-28T17:39:58,West,Calgary
+495,loyal,2024-11-10T17:39:58,Central,Houston
+496,loyal,2023-12-25T17:39:58,West,Vancouver
+497,casual,2022-11-08T17:39:58,West,Portland
+498,loyal,2023-11-12T17:39:58,East,Ottawa
+499,casual,2022-05-27T17:39:58,West,San Jose
+500,casual,2024-08-19T17:39:58,Central,Chicago
+501,casual,2021-12-26T17:39:58,West,Seattle
+502,bargain,2021-10-08T17:39:58,Central,Dallas
+503,casual,2023-01-30T17:39:58,Central,Chicago
+504,casual,2022-06-27T17:39:58,Central,Chicago
+505,bargain,2025-02-13T17:39:58,East,Montreal
+506,casual,2024-06-23T17:39:58,West,San Jose
+507,bargain,2025-02-26T17:39:58,East,New York
+508,bargain,2025-05-28T17:39:58,East,Ottawa
+509,casual,2022-04-09T17:39:58,East,Toronto
+510,loyal,2024-02-13T17:39:58,West,San Jose
+511,bargain,2021-11-29T17:39:58,East,Toronto
+512,bargain,2024-04-29T17:39:58,Central,Chicago
+513,casual,2023-12-13T17:39:58,East,Ottawa
+514,casual,2025-01-26T17:39:58,East,Montreal
+515,casual,2021-11-11T17:39:58,East,New York
+516,bargain,2024-08-25T17:39:58,East,Ottawa
+517,casual,2024-09-07T17:39:58,West,San Francisco
+518,bargain,2024-10-04T17:39:58,East,Ottawa
+519,casual,2025-05-09T17:39:58,Central,Houston
+520,casual,2025-03-24T17:39:58,Central,Dallas
+521,casual,2021-10-30T17:39:58,West,Vancouver
+522,premium,2022-12-12T17:39:58,Central,Chicago
+523,casual,2021-12-10T17:39:58,West,Vancouver
+524,bargain,2022-01-10T17:39:58,East,Montreal
+525,loyal,2022-05-02T17:39:58,East,Philadelphia
+526,casual,2021-11-30T17:39:58,West,San Francisco
+527,loyal,2025-02-21T17:39:58,East,Ottawa
+528,casual,2022-09-07T17:39:58,Central,Dallas
+529,bargain,2022-11-16T17:39:58,Central,Chicago
+530,casual,2024-10-19T17:39:58,West,San Jose
+531,loyal,2022-09-11T17:39:58,West,Vancouver
+532,casual,2024-07-13T17:39:58,West,Seattle
+533,loyal,2024-11-30T17:39:58,East,Ottawa
+534,casual,2024-12-10T17:39:58,Central,Houston
+535,loyal,2024-05-25T17:39:58,Central,Chicago
+536,casual,2025-06-15T17:39:58,East,Toronto
+537,casual,2022-04-04T17:39:58,West,San Jose
+538,bargain,2025-05-11T17:39:58,East,Montreal
+539,casual,2024-08-24T17:39:58,West,Vancouver
+540,loyal,2023-04-22T17:39:58,West,San Jose
+541,bargain,2025-06-22T17:39:58,East,Ottawa
+542,premium,2023-12-28T17:39:58,East,Ottawa
+543,premium,2022-03-06T17:39:58,West,San Francisco
+544,bargain,2024-05-07T17:39:58,Central,Dallas
+545,bargain,2022-04-24T17:39:58,East,Boston
+546,loyal,2021-11-18T17:39:58,West,San Jose
+547,casual,2021-09-25T17:39:58,West,Calgary
+548,casual,2022-04-08T17:39:58,Central,Minneapolis
+549,casual,2024-11-02T17:39:58,Central,Chicago
+550,loyal,2022-10-02T17:39:58,West,San Jose
+551,casual,2025-01-14T17:39:58,West,San Jose
+552,bargain,2025-05-12T17:39:58,East,Montreal
+553,casual,2024-12-02T17:39:58,East,Montreal
+554,loyal,2022-03-13T17:39:58,East,Boston
+555,casual,2021-12-09T17:39:58,West,Calgary
+556,loyal,2025-05-03T17:39:58,Central,Houston
+557,bargain,2022-11-16T17:39:58,Central,Dallas
+558,bargain,2022-04-11T17:39:58,Central,Houston
+559,casual,2025-01-11T17:39:58,East,Montreal
+560,premium,2024-04-10T17:39:58,Central,Chicago
+561,bargain,2022-03-23T17:39:58,West,Portland
+562,casual,2024-07-08T17:39:58,Central,Houston
+563,loyal,2022-05-04T17:39:58,East,New York
+564,loyal,2023-06-23T17:39:58,East,New York
+565,casual,2023-04-15T17:39:58,East,Philadelphia
+566,loyal,2021-12-04T17:39:58,West,San Francisco
+567,loyal,2023-03-16T17:39:58,Central,Minneapolis
+568,casual,2021-10-06T17:39:58,East,Philadelphia
+569,bargain,2022-06-26T17:39:58,West,San Francisco
+570,loyal,2023-07-03T17:39:58,Central,Dallas
+571,loyal,2023-11-10T17:39:58,Central,Houston
+572,bargain,2024-10-21T17:39:58,East,Toronto
+573,casual,2024-04-16T17:39:58,East,New York
+574,casual,2025-01-06T17:39:58,East,Boston
+575,loyal,2022-06-29T17:39:58,Central,Houston
+576,casual,2025-04-15T17:39:58,East,Ottawa
+577,bargain,2025-01-25T17:39:58,East,New York
+578,casual,2023-02-20T17:39:58,Central,Minneapolis
+579,casual,2023-07-02T17:39:58,Central,Dallas
+580,premium,2023-06-04T17:39:58,West,Calgary
+581,loyal,2021-11-25T17:39:58,Central,Minneapolis
+582,premium,2025-04-04T17:39:58,East,Montreal
+583,casual,2022-10-22T17:39:58,West,Calgary
+584,casual,2022-09-03T17:39:58,West,Calgary
+585,loyal,2022-09-19T17:39:58,West,San Jose
+586,loyal,2024-08-17T17:39:58,West,San Jose
+587,casual,2021-11-27T17:39:58,Central,Dallas
+588,bargain,2024-01-12T17:39:58,West,Vancouver
+589,casual,2023-05-13T17:39:58,Central,Kansas City
+590,bargain,2025-06-29T17:39:58,West,San Jose
+591,casual,2022-07-01T17:39:58,West,Vancouver
+592,casual,2023-08-18T17:39:58,East,Montreal
+593,premium,2022-03-07T17:39:58,Central,Dallas
+594,casual,2022-05-10T17:39:58,Central,Chicago
+595,casual,2022-09-28T17:39:58,West,San Francisco
+596,casual,2023-12-06T17:39:58,West,San Jose
+597,bargain,2024-02-19T17:39:58,West,San Jose
+598,casual,2021-09-08T17:39:58,East,Philadelphia
+599,bargain,2022-11-13T17:39:58,Central,Minneapolis
+600,casual,2021-10-04T17:39:58,Central,Chicago
+601,casual,2022-11-16T17:39:58,East,New York
+602,bargain,2022-01-10T17:39:58,West,San Francisco
+603,bargain,2024-04-16T17:39:58,West,Calgary
+604,loyal,2022-09-07T17:39:58,Central,Houston
+605,casual,2024-03-09T17:39:58,East,Philadelphia
+606,casual,2023-08-30T17:39:58,Central,Kansas City
+607,casual,2023-10-27T17:39:58,West,San Francisco
+608,premium,2024-07-21T17:39:58,East,Philadelphia
+609,bargain,2022-10-13T17:39:58,East,Boston
+610,bargain,2024-03-22T17:39:58,West,Calgary
+611,bargain,2024-06-10T17:39:58,West,Seattle
+612,bargain,2024-09-14T17:39:58,East,Philadelphia
+613,premium,2021-10-15T17:39:58,West,Vancouver
+614,bargain,2025-07-17T17:39:58,Central,Minneapolis
+615,casual,2022-11-16T17:39:58,East,New York
+616,bargain,2022-05-11T17:39:58,Central,Chicago
+617,casual,2022-09-18T17:39:58,Central,Dallas
+618,casual,2024-11-10T17:39:58,West,San Jose
+619,casual,2022-07-19T17:39:58,Central,Chicago
+620,bargain,2021-09-24T17:39:58,Central,Chicago
+621,loyal,2021-08-30T17:39:58,Central,Denver
+622,casual,2025-07-13T17:39:58,Central,Kansas City
+623,casual,2022-04-28T17:39:58,West,San Francisco
+624,casual,2024-02-15T17:39:58,Central,Minneapolis
+625,casual,2024-01-26T17:39:58,Central,Dallas
+626,casual,2023-07-12T17:39:58,East,Philadelphia
+627,bargain,2023-03-25T17:39:58,Central,Dallas
+628,casual,2023-05-02T17:39:58,Central,Houston
+629,premium,2024-11-04T17:39:58,West,San Jose
+630,bargain,2025-01-07T17:39:58,East,Boston
+631,bargain,2023-02-26T17:39:58,West,San Jose
+632,casual,2024-09-27T17:39:58,West,Seattle
+633,casual,2023-03-20T17:39:58,West,Seattle
+634,bargain,2022-08-02T17:39:58,East,Montreal
+635,loyal,2024-03-04T17:39:58,Central,Houston
+636,casual,2023-05-07T17:39:58,East,New York
+637,bargain,2024-05-15T17:39:58,West,Vancouver
+638,casual,2025-01-14T17:39:58,Central,Kansas City
+639,casual,2023-07-22T17:39:58,Central,Houston
+640,casual,2023-08-26T17:39:58,East,Philadelphia
+641,premium,2021-10-08T17:39:58,West,Portland
+642,loyal,2022-05-08T17:39:58,West,San Jose
+643,casual,2023-12-26T17:39:58,East,Boston
+644,bargain,2022-11-05T17:39:58,East,Montreal
+645,loyal,2023-06-11T17:39:58,Central,Denver
+646,bargain,2024-10-07T17:39:58,Central,Kansas City
+647,loyal,2023-03-20T17:39:58,East,Philadelphia
+648,casual,2025-03-06T17:39:58,East,Toronto
+649,casual,2023-10-27T17:39:58,Central,Dallas
+650,loyal,2024-01-30T17:39:58,Central,Kansas City
+651,bargain,2023-01-31T17:39:58,Central,Houston
+652,loyal,2022-04-15T17:39:58,Central,Kansas City
+653,casual,2024-08-22T17:39:58,Central,Chicago
+654,loyal,2024-04-06T17:39:58,West,Seattle
+655,casual,2025-02-17T17:39:58,East,Ottawa
+656,casual,2025-01-16T17:39:58,Central,Denver
+657,casual,2025-04-11T17:39:58,Central,Minneapolis
+658,casual,2025-02-10T17:39:58,Central,Minneapolis
+659,loyal,2025-02-08T17:39:58,East,Boston
+660,casual,2024-04-17T17:39:58,Central,Houston
+661,casual,2022-01-24T17:39:58,Central,Chicago
+662,casual,2025-06-02T17:39:58,East,Boston
+663,casual,2022-11-28T17:39:58,Central,Houston
+664,casual,2022-07-03T17:39:58,East,Philadelphia
+665,loyal,2024-08-02T17:39:58,East,Montreal
+666,bargain,2022-01-05T17:39:58,Central,Kansas City
+667,loyal,2021-12-28T17:39:58,Central,Minneapolis
+668,loyal,2022-11-17T17:39:58,Central,Houston
+669,casual,2023-11-08T17:39:58,West,San Francisco
+670,casual,2023-11-17T17:39:58,Central,Dallas
+671,casual,2023-08-26T17:39:58,East,Boston
+672,premium,2021-09-21T17:39:58,East,New York
+673,bargain,2025-07-12T17:39:58,Central,Houston
+674,bargain,2024-04-13T17:39:58,Central,Minneapolis
+675,casual,2024-07-09T17:39:58,East,Philadelphia
+676,casual,2023-05-14T17:39:58,East,Toronto
+677,casual,2021-12-16T17:39:58,East,Ottawa
+678,casual,2024-02-08T17:39:58,Central,Dallas
+679,bargain,2022-09-06T17:39:58,East,Boston
+680,casual,2021-09-27T17:39:58,East,Ottawa
+681,bargain,2022-08-06T17:39:58,East,Ottawa
+682,casual,2025-03-12T17:39:58,Central,Dallas
+683,casual,2022-01-03T17:39:58,Central,Denver
+684,casual,2022-02-01T17:39:58,Central,Houston
+685,casual,2024-09-22T17:39:58,Central,Denver
+686,premium,2024-07-15T17:39:58,East,New York
+687,bargain,2024-11-16T17:39:58,Central,Houston
+688,casual,2024-04-10T17:39:58,East,New York
+689,casual,2024-05-12T17:39:58,West,San Francisco
+690,casual,2023-07-01T17:39:58,Central,Chicago
+691,bargain,2025-02-16T17:39:58,West,Portland
+692,bargain,2024-02-01T17:39:58,West,Vancouver
+693,casual,2022-12-11T17:39:58,West,San Jose
+694,casual,2025-07-05T17:39:58,Central,Chicago
+695,bargain,2023-06-03T17:39:58,East,Boston
+696,casual,2025-05-23T17:39:58,Central,Dallas
+697,loyal,2022-08-28T17:39:58,East,New York
+698,loyal,2023-05-26T17:39:58,West,San Francisco
+699,loyal,2024-09-09T17:39:58,Central,Houston
+700,loyal,2022-07-01T17:39:58,West,Calgary
+701,casual,2021-12-31T17:39:58,Central,Chicago
+702,casual,2021-11-03T17:39:58,Central,Denver
+703,casual,2022-01-11T17:39:58,West,Seattle
+704,loyal,2024-01-12T17:39:58,West,Seattle
+705,premium,2025-07-12T17:39:58,Central,Dallas
+706,loyal,2022-11-30T17:39:58,East,Ottawa
+707,casual,2025-01-28T17:39:58,West,Portland
+708,loyal,2021-09-25T17:39:58,Central,Denver
+709,casual,2025-03-30T17:39:58,East,New York
+710,bargain,2022-07-28T17:39:58,West,Calgary
+711,casual,2024-04-10T17:39:58,West,San Francisco
+712,bargain,2023-08-19T17:39:58,East,Ottawa
+713,casual,2024-06-30T17:39:58,Central,Kansas City
+714,casual,2024-10-28T17:39:58,Central,Houston
+715,loyal,2023-02-15T17:39:58,West,San Francisco
+716,casual,2022-10-31T17:39:58,East,Ottawa
+717,casual,2023-08-18T17:39:58,West,San Jose
+718,premium,2022-03-22T17:39:58,Central,Houston
+719,loyal,2025-03-11T17:39:58,East,Boston
+720,loyal,2024-02-07T17:39:58,Central,Houston
+721,loyal,2022-01-01T17:39:58,Central,Denver
+722,loyal,2025-06-22T17:39:58,East,Boston
+723,casual,2024-03-28T17:39:58,Central,Minneapolis
+724,bargain,2022-07-23T17:39:58,West,Calgary
+725,casual,2021-09-30T17:39:58,West,San Jose
+726,casual,2022-02-21T17:39:58,East,Boston
+727,casual,2023-10-10T17:39:58,Central,Kansas City
+728,casual,2025-03-16T17:39:58,East,Ottawa
+729,casual,2025-05-27T17:39:58,West,Seattle
+730,casual,2025-01-09T17:39:58,Central,Dallas
+731,casual,2021-11-21T17:39:58,East,Toronto
+732,casual,2022-04-09T17:39:58,East,Ottawa
+733,bargain,2022-03-08T17:39:58,Central,Dallas
+734,casual,2021-11-26T17:39:58,West,Seattle
+735,casual,2021-12-30T17:39:58,West,San Francisco
+736,bargain,2023-04-01T17:39:58,East,Ottawa
+737,casual,2022-02-13T17:39:58,East,New York
+738,bargain,2025-03-08T17:39:58,West,Calgary
+739,casual,2022-09-01T17:39:58,West,Seattle
+740,casual,2022-08-07T17:39:58,East,Boston
+741,casual,2021-11-23T17:39:58,West,San Jose
+742,bargain,2022-06-13T17:39:58,East,Boston
+743,bargain,2024-12-26T17:39:58,Central,Kansas City
+744,casual,2021-10-18T17:39:58,East,Philadelphia
+745,casual,2024-12-29T17:39:58,East,Toronto
+746,loyal,2023-04-30T17:39:58,West,San Jose
+747,premium,2022-08-02T17:39:58,East,Boston
+748,loyal,2023-10-24T17:39:58,Central,Houston
+749,bargain,2023-04-08T17:39:58,Central,Houston
+750,loyal,2023-10-07T17:39:58,Central,Kansas City
+751,casual,2024-05-18T17:39:58,East,Montreal
+752,casual,2024-02-26T17:39:58,East,Ottawa
+753,casual,2023-05-09T17:39:58,Central,Chicago
+754,casual,2022-03-28T17:39:58,West,Portland
+755,casual,2025-07-17T17:39:58,West,Portland
+756,casual,2023-10-25T17:39:58,West,Seattle
+757,loyal,2022-06-23T17:39:58,East,Philadelphia
+758,casual,2024-09-17T17:39:58,East,Montreal
+759,casual,2024-09-14T17:39:58,Central,Houston
+760,casual,2024-03-06T17:39:58,Central,Minneapolis
+761,casual,2022-05-19T17:39:58,Central,Denver
+762,bargain,2025-02-22T17:39:58,West,Calgary
+763,bargain,2022-11-04T17:39:58,Central,Dallas
+764,bargain,2022-05-07T17:39:58,East,Ottawa
+765,casual,2021-12-23T17:39:58,West,San Jose
+766,casual,2023-06-10T17:39:58,East,Montreal
+767,bargain,2023-08-18T17:39:58,West,Portland
+768,bargain,2024-11-26T17:39:58,Central,Chicago
+769,bargain,2021-12-02T17:39:58,West,Calgary
+770,casual,2022-01-13T17:39:58,West,Calgary
+771,casual,2025-05-07T17:39:58,Central,Minneapolis
+772,loyal,2023-09-30T17:39:58,East,Boston
+773,loyal,2025-04-18T17:39:58,West,Seattle
+774,loyal,2022-03-30T17:39:58,Central,Chicago
+775,casual,2023-02-27T17:39:58,West,Seattle
+776,casual,2024-11-02T17:39:58,Central,Dallas
+777,loyal,2025-04-21T17:39:58,Central,Minneapolis
+778,loyal,2023-05-06T17:39:58,Central,Denver
+779,casual,2024-10-27T17:39:58,East,Boston
+780,loyal,2023-05-13T17:39:58,West,San Francisco
+781,premium,2022-02-15T17:39:58,West,San Jose
+782,casual,2024-03-21T17:39:58,East,Boston
+783,premium,2021-09-27T17:39:58,Central,Houston
+784,casual,2021-10-24T17:39:58,West,Vancouver
+785,casual,2024-07-05T17:39:58,Central,Houston
+786,bargain,2025-06-11T17:39:58,East,Ottawa
+787,bargain,2022-02-14T17:39:58,West,Portland
+788,casual,2024-10-05T17:39:58,Central,Minneapolis
+789,casual,2021-09-26T17:39:58,West,Seattle
+790,bargain,2024-12-12T17:39:58,East,New York
+791,bargain,2024-10-01T17:39:58,West,San Jose
+792,loyal,2023-08-27T17:39:58,Central,Denver
+793,casual,2023-01-21T17:39:58,West,Portland
+794,casual,2022-07-25T17:39:58,Central,Dallas
+795,loyal,2024-02-17T17:39:58,East,Montreal
+796,loyal,2024-10-14T17:39:58,East,Ottawa
+797,loyal,2023-06-20T17:39:58,East,New York
+798,casual,2025-05-02T17:39:58,East,Montreal
+799,bargain,2024-06-14T17:39:58,West,Portland
+800,casual,2025-04-13T17:39:58,East,Philadelphia
+801,loyal,2023-05-27T17:39:58,West,Vancouver
+802,bargain,2023-07-24T17:39:58,East,Ottawa
+803,casual,2021-12-09T17:39:58,West,Portland
+804,premium,2025-01-08T17:39:58,Central,Minneapolis
+805,casual,2022-08-07T17:39:58,Central,Minneapolis
+806,loyal,2023-01-05T17:39:58,West,San Jose
+807,casual,2025-05-10T17:39:58,East,New York
+808,casual,2023-09-16T17:39:58,East,Philadelphia
+809,casual,2025-06-23T17:39:58,East,Boston
+810,casual,2022-01-27T17:39:58,Central,Houston
+811,loyal,2025-03-26T17:39:58,East,Philadelphia
+812,premium,2022-06-20T17:39:58,Central,Denver
+813,bargain,2023-08-31T17:39:58,West,Seattle
+814,bargain,2025-02-01T17:39:58,East,Boston
+815,bargain,2022-02-22T17:39:58,East,Ottawa
+816,casual,2023-03-29T17:39:58,East,Boston
+817,premium,2023-10-30T17:39:58,West,San Francisco
+818,casual,2022-07-16T17:39:58,Central,Chicago
+819,loyal,2022-04-28T17:39:58,East,Boston
+820,loyal,2023-11-06T17:39:58,West,Seattle
+821,premium,2023-03-03T17:39:58,East,Boston
+822,premium,2022-05-31T17:39:58,West,Calgary
+823,loyal,2022-06-15T17:39:58,Central,Denver
+824,casual,2024-07-18T17:39:58,East,New York
+825,bargain,2025-05-31T17:39:58,West,Calgary
+826,casual,2023-11-17T17:39:58,Central,Chicago
+827,casual,2024-01-17T17:39:58,East,Ottawa
+828,casual,2024-11-03T17:39:58,West,Vancouver
+829,loyal,2024-01-31T17:39:58,East,Montreal
+830,casual,2022-03-27T17:39:58,East,Boston
+831,casual,2023-07-26T17:39:58,East,New York
+832,bargain,2022-10-06T17:39:58,Central,Dallas
+833,casual,2021-12-08T17:39:58,Central,Kansas City
+834,casual,2022-12-03T17:39:58,Central,Chicago
+835,casual,2025-05-25T17:39:58,West,Seattle
+836,casual,2023-04-07T17:39:58,West,Portland
+837,casual,2024-06-07T17:39:58,East,Boston
+838,loyal,2022-10-31T17:39:58,Central,Minneapolis
+839,casual,2023-03-08T17:39:58,Central,Dallas
+840,bargain,2023-06-12T17:39:58,West,San Jose
+841,loyal,2022-05-16T17:39:58,Central,Minneapolis
+842,loyal,2025-05-13T17:39:58,East,Ottawa
+843,bargain,2025-05-05T17:39:58,Central,Chicago
+844,casual,2022-07-25T17:39:58,West,San Jose
+845,casual,2022-06-14T17:39:58,East,New York
+846,casual,2024-07-07T17:39:58,East,New York
+847,casual,2023-12-23T17:39:58,Central,Houston
+848,premium,2022-02-21T17:39:58,Central,Houston
+849,casual,2024-10-12T17:39:58,East,Montreal
+850,bargain,2025-01-26T17:39:58,East,Toronto
+851,premium,2022-04-19T17:39:58,West,Seattle
+852,casual,2024-10-26T17:39:58,East,Montreal
+853,casual,2025-06-09T17:39:58,Central,Chicago
+854,bargain,2024-06-12T17:39:58,East,Ottawa
+855,loyal,2023-10-06T17:39:58,West,Portland
+856,casual,2024-11-19T17:39:58,East,Boston
+857,casual,2022-01-09T17:39:58,East,Toronto
+858,bargain,2023-06-05T17:39:58,East,Ottawa
+859,casual,2024-09-06T17:39:58,East,Montreal
+860,premium,2024-08-15T17:39:58,Central,Denver
+861,casual,2024-09-26T17:39:58,East,Ottawa
+862,casual,2025-04-16T17:39:58,West,Seattle
+863,casual,2023-01-29T17:39:58,Central,Kansas City
+864,premium,2024-11-03T17:39:58,West,Vancouver
+865,casual,2024-02-28T17:39:58,West,San Jose
+866,bargain,2022-07-13T17:39:58,Central,Chicago
+867,casual,2024-03-30T17:39:58,East,Toronto
+868,casual,2023-01-13T17:39:58,East,Toronto
+869,casual,2022-03-19T17:39:58,West,San Jose
+870,loyal,2022-02-07T17:39:58,East,Philadelphia
+871,casual,2024-07-17T17:39:58,West,Vancouver
+872,casual,2025-05-16T17:39:58,East,Philadelphia
+873,bargain,2022-05-04T17:39:58,West,Calgary
+874,casual,2025-02-01T17:39:58,Central,Houston
+875,loyal,2024-09-03T17:39:58,Central,Dallas
+876,loyal,2021-09-13T17:39:58,East,Ottawa
+877,premium,2024-08-01T17:39:58,East,Montreal
+878,premium,2023-07-24T17:39:58,East,Montreal
+879,casual,2023-10-08T17:39:58,West,Portland
+880,bargain,2023-03-08T17:39:58,Central,Denver
+881,casual,2022-12-09T17:39:58,West,Portland
+882,loyal,2023-09-25T17:39:58,East,Philadelphia
+883,casual,2021-09-04T17:39:58,East,Boston
+884,bargain,2022-05-17T17:39:58,West,Vancouver
+885,casual,2025-02-01T17:39:58,East,Montreal
+886,casual,2023-12-20T17:39:58,East,Montreal
+887,loyal,2022-08-19T17:39:58,Central,Houston
+888,loyal,2024-11-07T17:39:58,East,Philadelphia
+889,casual,2022-01-13T17:39:58,Central,Minneapolis
+890,bargain,2024-04-10T17:39:58,West,San Jose
+891,casual,2024-11-30T17:39:58,West,Vancouver
+892,bargain,2024-06-01T17:39:58,East,New York
+893,casual,2025-04-28T17:39:58,Central,Chicago
+894,casual,2024-05-22T17:39:58,East,Ottawa
+895,casual,2024-01-01T17:39:58,West,Calgary
+896,loyal,2023-11-24T17:39:58,West,Portland
+897,loyal,2024-12-09T17:39:58,Central,Denver
+898,loyal,2022-05-22T17:39:58,Central,Chicago
+899,casual,2024-06-28T17:39:58,West,Seattle
+900,premium,2022-11-22T17:39:58,Central,Kansas City
+901,casual,2024-10-25T17:39:58,West,Calgary
+902,bargain,2022-07-27T17:39:58,East,Toronto
+903,bargain,2025-04-07T17:39:58,Central,Chicago
+904,casual,2021-10-11T17:39:58,Central,Minneapolis
+905,loyal,2024-05-30T17:39:58,East,New York
+906,premium,2025-03-17T17:39:58,Central,Houston
+907,premium,2023-09-05T17:39:58,Central,Denver
+908,loyal,2024-08-25T17:39:58,East,Montreal
+909,casual,2022-03-30T17:39:58,Central,Dallas
+910,bargain,2023-10-25T17:39:58,Central,Kansas City
+911,casual,2025-02-03T17:39:58,Central,Chicago
+912,bargain,2023-01-17T17:39:58,West,Portland
+913,casual,2022-08-20T17:39:58,Central,Dallas
+914,bargain,2025-05-15T17:39:58,West,Portland
+915,casual,2022-09-28T17:39:58,West,San Francisco
+916,casual,2024-09-18T17:39:58,Central,Minneapolis
+917,casual,2022-08-23T17:39:58,Central,Kansas City
+918,bargain,2025-01-10T17:39:58,Central,Dallas
+919,casual,2024-11-01T17:39:58,East,Ottawa
+920,bargain,2023-05-29T17:39:58,West,San Francisco
+921,casual,2025-07-22T17:39:58,East,New York
+922,bargain,2022-03-31T17:39:58,West,Calgary
+923,casual,2025-04-27T17:39:58,Central,Chicago
+924,casual,2023-10-30T17:39:58,East,Ottawa
+925,casual,2024-05-27T17:39:58,Central,Kansas City
+926,loyal,2024-01-11T17:39:58,West,Portland
+927,casual,2024-12-02T17:39:58,Central,Kansas City
+928,casual,2024-12-08T17:39:58,West,Portland
+929,casual,2022-09-12T17:39:58,East,Montreal
+930,casual,2022-07-01T17:39:58,East,Philadelphia
+931,loyal,2023-12-28T17:39:58,West,Calgary
+932,loyal,2023-11-01T17:39:58,West,Vancouver
+933,casual,2023-02-03T17:39:58,Central,Minneapolis
+934,casual,2021-10-16T17:39:58,West,San Francisco
+935,casual,2025-02-04T17:39:58,Central,Denver
+936,bargain,2022-03-28T17:39:58,West,Calgary
+937,loyal,2023-01-29T17:39:58,East,Ottawa
+938,bargain,2024-06-20T17:39:58,Central,Houston
+939,premium,2025-02-20T17:39:58,East,Montreal
+940,casual,2024-11-03T17:39:58,Central,Minneapolis
+941,casual,2025-01-12T17:39:58,East,Toronto
+942,casual,2022-12-20T17:39:58,East,Ottawa
+943,casual,2022-02-13T17:39:58,West,Seattle
+944,loyal,2024-07-20T17:39:58,Central,Chicago
+945,casual,2023-10-04T17:39:58,East,Philadelphia
+946,casual,2022-11-30T17:39:58,West,Vancouver
+947,casual,2024-08-15T17:39:58,Central,Chicago
+948,casual,2022-05-11T17:39:58,Central,Minneapolis
+949,casual,2024-12-23T17:39:58,West,San Francisco
+950,loyal,2023-11-20T17:39:58,East,New York
+951,casual,2023-04-06T17:39:58,Central,Minneapolis
+952,premium,2024-09-08T17:39:58,West,San Jose
+953,casual,2023-09-02T17:39:58,Central,Denver
+954,bargain,2023-03-01T17:39:58,East,Montreal
+955,loyal,2023-08-30T17:39:58,Central,Minneapolis
+956,loyal,2021-11-11T17:39:58,West,Seattle
+957,bargain,2022-05-12T17:39:58,East,Ottawa
+958,casual,2022-03-28T17:39:58,West,San Jose
+959,casual,2023-01-31T17:39:58,East,New York
+960,casual,2022-03-23T17:39:58,Central,Denver
+961,casual,2023-09-29T17:39:58,East,Toronto
+962,casual,2025-01-26T17:39:58,East,New York
+963,bargain,2022-01-05T17:39:58,West,San Jose
+964,casual,2024-09-28T17:39:58,West,Calgary
+965,loyal,2022-02-16T17:39:58,Central,Chicago
+966,bargain,2021-10-04T17:39:58,West,Seattle
+967,casual,2021-10-08T17:39:58,Central,Minneapolis
+968,premium,2023-08-25T17:39:58,Central,Kansas City
+969,premium,2022-02-24T17:39:58,East,New York
+970,casual,2023-12-06T17:39:58,Central,Dallas
+971,bargain,2025-07-29T17:39:58,East,New York
+972,bargain,2023-12-31T17:39:58,Central,Denver
+973,casual,2022-04-09T17:39:58,West,San Francisco
+974,casual,2023-06-08T17:39:58,Central,Kansas City
+975,loyal,2024-05-24T17:39:58,Central,Minneapolis
+976,loyal,2024-07-10T17:39:58,Central,Dallas
+977,casual,2024-09-18T17:39:58,Central,Chicago
+978,casual,2024-10-28T17:39:58,East,Boston
+979,bargain,2024-10-09T17:39:58,East,New York
+980,premium,2023-02-17T17:39:58,Central,Kansas City
+981,loyal,2024-10-22T17:39:58,West,Vancouver
+982,loyal,2021-09-05T17:39:58,Central,Chicago
+983,casual,2024-07-27T17:39:58,Central,Minneapolis
+984,casual,2023-01-21T17:39:58,Central,Minneapolis
+985,loyal,2023-03-14T17:39:58,West,Seattle
+986,bargain,2024-04-02T17:39:58,East,Toronto
+987,loyal,2022-07-08T17:39:58,Central,Chicago
+988,casual,2022-05-24T17:39:58,West,Vancouver
+989,casual,2022-04-29T17:39:58,Central,Denver
+990,bargain,2024-10-13T17:39:58,East,New York
+991,loyal,2022-12-21T17:39:58,East,Philadelphia
+992,casual,2025-01-30T17:39:58,East,Montreal
+993,premium,2021-11-09T17:39:58,East,Ottawa
+994,loyal,2022-01-10T17:39:58,West,Calgary
+995,casual,2022-02-21T17:39:58,East,Philadelphia
+996,casual,2025-07-08T17:39:58,Central,Minneapolis
+997,bargain,2022-05-12T17:39:58,East,Toronto
+998,casual,2023-12-05T17:39:58,Central,Houston
+999,bargain,2022-03-25T17:39:58,West,Calgary
+1000,casual,2024-02-13T17:39:58,East,Montreal
+1001,loyal,2024-08-18T17:39:58,Central,Minneapolis
+1002,casual,2022-01-29T17:39:58,East,Philadelphia
+1003,loyal,2024-11-13T17:39:58,Central,Denver
+1004,loyal,2024-11-01T17:39:58,Central,Houston
+1005,bargain,2025-07-01T17:39:58,Central,Houston
+1006,bargain,2022-04-06T17:39:58,East,Boston
+1007,bargain,2023-07-04T17:39:58,East,Toronto
+1008,casual,2024-04-03T17:39:58,Central,Kansas City
+1009,premium,2023-08-28T17:39:58,East,New York
+1010,bargain,2024-09-18T17:39:58,West,San Jose
+1011,loyal,2024-03-30T17:39:58,Central,Chicago
+1012,casual,2024-08-22T17:39:58,East,Ottawa
+1013,loyal,2025-04-10T17:39:58,East,Philadelphia
+1014,casual,2024-08-21T17:39:58,West,Vancouver
+1015,bargain,2022-11-28T17:39:58,Central,Houston
+1016,loyal,2023-06-14T17:39:58,East,Boston
+1017,casual,2024-02-09T17:39:58,Central,Chicago
+1018,premium,2023-12-17T17:39:58,Central,Denver
+1019,casual,2021-10-10T17:39:58,Central,Chicago
+1020,casual,2025-05-07T17:39:58,East,Ottawa
+1021,premium,2023-08-06T17:39:58,East,Ottawa
+1022,bargain,2021-12-03T17:39:58,Central,Minneapolis
+1023,bargain,2024-01-31T17:39:58,Central,Houston
+1024,casual,2022-04-21T17:39:58,Central,Kansas City
+1025,bargain,2024-03-22T17:39:58,East,Ottawa
+1026,casual,2022-08-31T17:39:58,East,Boston
+1027,loyal,2023-10-28T17:39:58,East,Boston
+1028,casual,2025-03-13T17:39:58,East,New York
+1029,loyal,2024-12-30T17:39:58,West,San Jose
+1030,casual,2023-12-28T17:39:58,Central,Dallas
+1031,casual,2022-02-08T17:39:58,West,Vancouver
+1032,premium,2024-05-12T17:39:58,East,Ottawa
+1033,casual,2024-11-27T17:39:58,East,New York
+1034,loyal,2023-06-22T17:39:58,East,Boston
+1035,bargain,2024-07-17T17:39:58,East,Montreal
+1036,casual,2024-02-28T17:39:58,East,Boston
+1037,casual,2021-12-30T17:39:58,East,New York
+1038,premium,2021-09-12T17:39:58,Central,Chicago
+1039,bargain,2024-09-02T17:39:58,Central,Houston
+1040,casual,2023-06-08T17:39:58,Central,Denver
+1041,casual,2024-02-04T17:39:58,West,Portland
+1042,loyal,2024-06-15T17:39:58,West,San Francisco
+1043,casual,2022-10-27T17:39:58,West,Calgary
+1044,loyal,2024-05-09T17:39:58,East,Toronto
+1045,casual,2024-02-16T17:39:58,West,San Francisco
+1046,bargain,2022-05-17T17:39:58,West,Vancouver
+1047,casual,2022-10-15T17:39:58,Central,Denver
+1048,loyal,2025-05-14T17:39:58,East,New York
+1049,premium,2023-09-24T17:39:58,Central,Dallas
+1050,bargain,2022-09-09T17:39:58,East,New York
+1051,casual,2023-02-18T17:39:58,Central,Chicago
+1052,casual,2022-07-20T17:39:58,East,New York
+1053,casual,2022-11-16T17:39:58,Central,Kansas City
+1054,loyal,2023-09-17T17:39:58,East,Philadelphia
+1055,premium,2022-01-13T17:39:58,Central,Denver
+1056,loyal,2023-07-13T17:39:58,East,New York
+1057,bargain,2023-01-01T17:39:58,Central,Denver
+1058,casual,2024-06-10T17:39:58,Central,Kansas City
+1059,casual,2021-11-15T17:39:58,West,San Francisco
+1060,loyal,2024-12-24T17:39:58,East,Toronto
+1061,bargain,2025-02-07T17:39:58,Central,Chicago
+1062,casual,2024-07-07T17:39:58,Central,Kansas City
+1063,casual,2022-04-03T17:39:58,West,Vancouver
+1064,loyal,2022-07-19T17:39:58,Central,Denver
+1065,premium,2023-01-22T17:39:58,Central,Minneapolis
+1066,casual,2023-09-05T17:39:58,West,Vancouver
+1067,casual,2023-04-22T17:39:58,East,New York
+1068,casual,2022-08-24T17:39:58,East,Ottawa
+1069,bargain,2024-09-28T17:39:58,East,Montreal
+1070,bargain,2025-05-16T17:39:58,West,Vancouver
+1071,casual,2025-06-21T17:39:58,Central,Kansas City
+1072,bargain,2024-03-20T17:39:58,East,New York
+1073,loyal,2024-08-12T17:39:58,West,Vancouver
+1074,loyal,2023-01-08T17:39:58,Central,Denver
+1075,casual,2024-12-25T17:39:58,East,New York
+1076,casual,2024-05-05T17:39:58,East,Montreal
+1077,bargain,2023-09-09T17:39:58,West,San Francisco
+1078,casual,2023-04-29T17:39:58,East,Ottawa
+1079,casual,2022-07-09T17:39:58,East,Montreal
+1080,casual,2022-04-03T17:39:58,West,Vancouver
+1081,casual,2024-01-17T17:39:58,West,Vancouver
+1082,casual,2021-09-03T17:39:58,Central,Dallas
+1083,premium,2024-03-19T17:39:58,West,San Francisco
+1084,bargain,2025-01-07T17:39:58,West,Seattle
+1085,bargain,2023-06-21T17:39:58,East,Montreal
+1086,casual,2025-02-15T17:39:58,West,San Francisco
+1087,loyal,2021-12-04T17:39:58,West,Vancouver
+1088,bargain,2021-09-09T17:39:58,Central,Chicago
+1089,casual,2024-11-13T17:39:58,Central,Kansas City
+1090,casual,2022-08-24T17:39:58,East,Philadelphia
+1091,loyal,2022-02-26T17:39:58,West,Seattle
+1092,loyal,2022-10-11T17:39:58,East,Boston
+1093,casual,2023-11-22T17:39:58,West,Calgary
+1094,casual,2024-04-04T17:39:58,West,San Jose
+1095,casual,2022-02-09T17:39:58,East,New York
+1096,casual,2024-05-07T17:39:58,East,Montreal
+1097,casual,2024-05-30T17:39:58,East,Ottawa
+1098,loyal,2024-09-28T17:39:58,West,Vancouver
+1099,casual,2024-08-03T17:39:58,Central,Chicago
+1100,casual,2021-12-18T17:39:58,West,Vancouver
+1101,casual,2024-03-03T17:39:58,West,San Francisco
+1102,bargain,2024-12-29T17:39:58,Central,Denver
+1103,bargain,2024-09-10T17:39:58,East,Boston
+1104,casual,2024-12-05T17:39:58,Central,Minneapolis
+1105,loyal,2023-02-01T17:39:58,West,Calgary
+1106,bargain,2024-06-18T17:39:58,Central,Chicago
+1107,casual,2024-12-17T17:39:58,Central,Dallas
+1108,bargain,2023-04-08T17:39:58,West,Seattle
+1109,casual,2025-03-02T17:39:58,Central,Dallas
+1110,casual,2023-02-19T17:39:58,Central,Denver
+1111,casual,2024-07-31T17:39:58,East,Toronto
+1112,loyal,2024-06-28T17:39:58,West,San Francisco
+1113,casual,2023-09-12T17:39:58,Central,Dallas
+1114,casual,2025-03-30T17:39:58,East,Montreal
+1115,casual,2023-01-03T17:39:58,West,San Francisco
+1116,loyal,2023-12-04T17:39:58,Central,Dallas
+1117,loyal,2024-08-16T17:39:58,East,Montreal
+1118,casual,2025-02-03T17:39:58,East,Boston
+1119,loyal,2024-05-13T17:39:58,East,Toronto
+1120,bargain,2025-07-01T17:39:58,Central,Houston
+1121,casual,2024-03-10T17:39:58,East,Boston
+1122,premium,2022-04-06T17:39:58,East,Boston
+1123,premium,2023-03-28T17:39:58,East,New York
+1124,casual,2022-10-02T17:39:58,West,San Francisco
+1125,bargain,2022-11-22T17:39:58,East,Toronto
+1126,casual,2023-01-16T17:39:58,East,New York
+1127,loyal,2025-07-05T17:39:58,West,San Jose
+1128,casual,2024-11-01T17:39:58,Central,Dallas
+1129,casual,2025-01-26T17:39:58,West,Calgary
+1130,bargain,2024-09-02T17:39:58,East,Philadelphia
+1131,casual,2022-04-22T17:39:58,East,Ottawa
+1132,bargain,2024-10-20T17:39:58,Central,Chicago
+1133,loyal,2023-07-03T17:39:58,Central,Dallas
+1134,bargain,2025-07-28T17:39:58,East,Ottawa
+1135,casual,2021-09-15T17:39:58,West,San Francisco
+1136,bargain,2023-03-11T17:39:58,West,Portland
+1137,loyal,2022-07-16T17:39:58,East,Montreal
+1138,loyal,2025-02-15T17:39:58,West,Calgary
+1139,loyal,2025-04-09T17:39:58,Central,Kansas City
+1140,casual,2025-04-16T17:39:58,East,Philadelphia
+1141,casual,2022-02-09T17:39:58,Central,Chicago
+1142,loyal,2021-12-11T17:39:58,Central,Dallas
+1143,casual,2024-06-06T17:39:58,West,San Jose
+1144,casual,2022-07-21T17:39:58,Central,Dallas
+1145,bargain,2022-04-29T17:39:58,Central,Kansas City
+1146,casual,2024-04-25T17:39:58,East,Boston
+1147,casual,2021-10-06T17:39:58,Central,Minneapolis
+1148,casual,2023-06-28T17:39:58,West,Vancouver
+1149,bargain,2022-08-17T17:39:58,Central,Minneapolis
+1150,loyal,2022-08-06T17:39:58,Central,Kansas City
+1151,loyal,2023-01-17T17:39:58,East,Philadelphia
+1152,casual,2025-03-18T17:39:58,East,Ottawa
+1153,casual,2025-02-16T17:39:58,Central,Denver
+1154,casual,2025-02-23T17:39:58,West,Portland
+1155,casual,2021-09-02T17:39:58,Central,Denver
+1156,premium,2022-08-29T17:39:58,West,Seattle
+1157,premium,2023-03-30T17:39:58,West,Portland
+1158,casual,2022-12-03T17:39:58,East,Boston
+1159,casual,2021-12-18T17:39:58,Central,Kansas City
+1160,bargain,2025-06-15T17:39:58,West,Vancouver
+1161,casual,2021-12-18T17:39:58,West,San Jose
+1162,loyal,2021-11-26T17:39:58,East,Philadelphia
+1163,loyal,2022-04-02T17:39:58,Central,Chicago
+1164,casual,2023-01-31T17:39:58,East,Montreal
+1165,casual,2023-11-11T17:39:58,East,Boston
+1166,casual,2022-11-12T17:39:58,Central,Dallas
+1167,casual,2024-09-30T17:39:58,Central,Denver
+1168,premium,2022-02-10T17:39:58,Central,Dallas
+1169,casual,2023-12-24T17:39:58,East,Montreal
+1170,premium,2021-09-11T17:39:58,West,Calgary
+1171,casual,2024-03-30T17:39:58,West,Seattle
+1172,casual,2024-11-13T17:39:58,Central,Minneapolis
+1173,loyal,2024-06-05T17:39:58,Central,Dallas
+1174,premium,2023-10-20T17:39:58,West,Calgary
+1175,loyal,2023-01-24T17:39:58,West,Portland
+1176,casual,2023-11-21T17:39:58,West,San Jose
+1177,bargain,2022-10-12T17:39:58,West,San Francisco
+1178,casual,2024-09-14T17:39:58,Central,Houston
+1179,casual,2022-09-25T17:39:58,East,Montreal
+1180,bargain,2022-12-03T17:39:58,East,Philadelphia
+1181,bargain,2024-10-02T17:39:58,East,Ottawa
+1182,loyal,2023-09-06T17:39:58,East,Toronto
+1183,casual,2025-05-09T17:39:58,East,Toronto
+1184,casual,2023-11-08T17:39:58,East,New York
+1185,casual,2023-01-29T17:39:58,East,Boston
+1186,loyal,2022-03-03T17:39:58,Central,Denver
+1187,bargain,2024-05-02T17:39:58,East,Montreal
+1188,casual,2025-06-14T17:39:58,Central,Dallas
+1189,premium,2021-10-24T17:39:58,Central,Kansas City
+1190,casual,2024-06-27T17:39:58,East,Toronto
+1191,premium,2022-09-17T17:39:58,East,Montreal
+1192,casual,2023-05-08T17:39:58,East,Philadelphia
+1193,casual,2023-06-01T17:39:58,Central,Houston
+1194,casual,2023-08-11T17:39:58,Central,Houston
+1195,casual,2025-02-01T17:39:58,Central,Minneapolis
+1196,bargain,2023-04-01T17:39:58,Central,Kansas City
+1197,bargain,2023-03-15T17:39:58,Central,Dallas
+1198,loyal,2022-04-15T17:39:58,Central,Dallas
+1199,casual,2023-11-17T17:39:58,West,Seattle
+1200,premium,2025-03-17T17:39:58,East,Philadelphia
+1201,casual,2025-01-30T17:39:58,East,Toronto
+1202,casual,2023-04-04T17:39:58,East,Philadelphia
+1203,bargain,2022-05-24T17:39:58,Central,Kansas City
+1204,bargain,2024-07-15T17:39:58,West,Seattle
+1205,casual,2022-10-30T17:39:58,Central,Minneapolis
+1206,casual,2023-11-16T17:39:58,Central,Minneapolis
+1207,casual,2024-04-27T17:39:58,East,Toronto
+1208,casual,2024-02-09T17:39:58,West,Seattle
+1209,casual,2022-12-06T17:39:58,East,Ottawa
+1210,casual,2023-03-29T17:39:58,East,Philadelphia
+1211,casual,2024-03-16T17:39:58,East,Ottawa
+1212,loyal,2025-03-16T17:39:58,Central,Chicago
+1213,loyal,2022-11-19T17:39:58,Central,Minneapolis
+1214,casual,2021-09-25T17:39:58,Central,Kansas City
+1215,loyal,2023-06-27T17:39:58,East,New York
+1216,casual,2024-02-15T17:39:58,East,New York
+1217,casual,2023-10-15T17:39:58,West,Seattle
+1218,casual,2023-07-30T17:39:58,East,Boston
+1219,loyal,2023-03-24T17:39:58,Central,Houston
+1220,casual,2023-12-15T17:39:58,Central,Denver
+1221,casual,2022-09-12T17:39:58,East,New York
+1222,loyal,2025-01-18T17:39:58,East,Boston
+1223,bargain,2023-10-09T17:39:58,West,San Jose
+1224,loyal,2024-01-22T17:39:58,East,Philadelphia
+1225,loyal,2025-01-15T17:39:58,East,Philadelphia
+1226,casual,2025-07-04T17:39:58,Central,Dallas
+1227,casual,2022-11-10T17:39:58,Central,Houston
+1228,casual,2024-05-10T17:39:58,West,Vancouver
+1229,loyal,2022-06-12T17:39:58,West,Seattle
+1230,bargain,2022-06-28T17:39:58,East,Montreal
+1231,premium,2022-12-30T17:39:58,West,San Francisco
+1232,casual,2025-06-25T17:39:58,West,Seattle
+1233,casual,2023-07-19T17:39:58,Central,Kansas City
+1234,bargain,2022-08-24T17:39:58,Central,Minneapolis
+1235,casual,2023-11-15T17:39:58,Central,Dallas
+1236,bargain,2024-11-09T17:39:58,West,Seattle
+1237,casual,2024-04-22T17:39:58,West,Calgary
+1238,casual,2025-02-20T17:39:58,West,Seattle
+1239,bargain,2025-06-22T17:39:58,West,Vancouver
+1240,casual,2024-06-23T17:39:58,Central,Denver
+1241,casual,2022-04-03T17:39:58,East,Montreal
+1242,casual,2025-05-03T17:39:58,West,Portland
+1243,bargain,2025-01-14T17:39:58,East,New York
+1244,premium,2022-04-14T17:39:58,East,Boston
+1245,casual,2023-08-11T17:39:58,West,Calgary
+1246,premium,2024-01-09T17:39:58,West,Calgary
+1247,bargain,2024-09-05T17:39:58,Central,Houston
+1248,loyal,2024-03-22T17:39:58,East,Montreal
+1249,bargain,2022-05-03T17:39:58,West,Vancouver
+1250,premium,2024-07-03T17:39:58,East,Boston
+1251,premium,2025-07-22T17:39:58,West,San Jose
+1252,bargain,2022-10-02T17:39:58,West,Seattle
+1253,loyal,2021-08-31T17:39:58,Central,Houston
+1254,casual,2024-12-23T17:39:58,Central,Kansas City
+1255,casual,2023-03-15T17:39:58,Central,Chicago
+1256,bargain,2024-12-11T17:39:58,West,San Francisco
+1257,casual,2022-12-19T17:39:58,Central,Denver
+1258,bargain,2023-07-22T17:39:58,West,San Francisco
+1259,casual,2025-05-08T17:39:58,East,Ottawa
+1260,casual,2023-06-03T17:39:58,Central,Denver
+1261,loyal,2023-10-31T17:39:58,East,Ottawa
+1262,casual,2022-06-22T17:39:58,Central,Dallas
+1263,bargain,2025-03-10T17:39:58,Central,Dallas
+1264,casual,2023-07-09T17:39:58,Central,Kansas City
+1265,casual,2021-10-23T17:39:58,East,Toronto
+1266,loyal,2021-11-20T17:39:58,Central,Minneapolis
+1267,casual,2023-05-14T17:39:58,West,Seattle
+1268,casual,2024-08-19T17:39:58,East,New York
+1269,loyal,2024-06-15T17:39:58,West,Portland
+1270,bargain,2024-04-10T17:39:58,Central,Denver
+1271,bargain,2024-01-07T17:39:58,East,Toronto
+1272,bargain,2024-01-18T17:39:58,East,Montreal
+1273,casual,2023-08-01T17:39:58,East,Toronto
+1274,loyal,2022-11-11T17:39:58,East,Toronto
+1275,casual,2024-12-21T17:39:58,West,San Francisco
+1276,loyal,2024-04-14T17:39:58,Central,Chicago
+1277,bargain,2025-01-08T17:39:58,West,Vancouver
+1278,casual,2021-10-11T17:39:58,West,San Francisco
+1279,loyal,2022-03-10T17:39:58,West,San Francisco
+1280,loyal,2022-02-03T17:39:58,West,Portland
+1281,bargain,2022-08-31T17:39:58,West,Calgary
+1282,loyal,2023-12-07T17:39:58,Central,Dallas
+1283,loyal,2024-02-11T17:39:58,Central,Minneapolis
+1284,premium,2025-06-24T17:39:58,East,Montreal
+1285,casual,2024-11-29T17:39:58,West,San Francisco
+1286,casual,2023-02-05T17:39:58,Central,Chicago
+1287,loyal,2022-06-16T17:39:58,West,Seattle
+1288,casual,2024-08-28T17:39:58,Central,Kansas City
+1289,casual,2023-05-26T17:39:58,West,Portland
+1290,casual,2021-10-17T17:39:58,West,San Jose
+1291,loyal,2022-07-22T17:39:58,East,Ottawa
+1292,loyal,2024-09-13T17:39:58,Central,Minneapolis
+1293,loyal,2022-10-21T17:39:58,Central,Houston
+1294,casual,2021-10-14T17:39:58,Central,Minneapolis
+1295,casual,2025-03-27T17:39:58,Central,Houston
+1296,casual,2023-07-11T17:39:58,West,Seattle
+1297,bargain,2025-06-05T17:39:58,East,Montreal
+1298,casual,2023-06-12T17:39:58,East,Philadelphia
+1299,casual,2023-04-09T17:39:58,Central,Houston
+1300,casual,2024-03-10T17:39:58,East,Boston
+1301,premium,2025-02-07T17:39:58,Central,Minneapolis
+1302,casual,2024-12-08T17:39:58,West,Portland
+1303,casual,2023-10-02T17:39:58,West,San Jose
+1304,loyal,2022-05-24T17:39:58,East,Toronto
+1305,loyal,2025-06-19T17:39:58,Central,Houston
+1306,casual,2023-10-21T17:39:58,East,New York
+1307,casual,2022-05-15T17:39:58,Central,Houston
+1308,loyal,2021-09-15T17:39:58,Central,Denver
+1309,bargain,2022-10-05T17:39:58,Central,Chicago
+1310,loyal,2024-08-23T17:39:58,East,Philadelphia
+1311,casual,2024-06-12T17:39:58,Central,Chicago
+1312,casual,2024-05-18T17:39:58,West,San Jose
+1313,casual,2022-05-13T17:39:58,West,Portland
+1314,bargain,2025-01-23T17:39:58,West,San Jose
+1315,casual,2022-04-05T17:39:58,East,New York
+1316,casual,2022-08-08T17:39:58,West,San Jose
+1317,loyal,2025-02-23T17:39:58,West,Portland
+1318,casual,2023-11-24T17:39:58,Central,Minneapolis
+1319,casual,2024-06-16T17:39:58,East,Philadelphia
+1320,casual,2022-09-09T17:39:58,Central,Minneapolis
+1321,loyal,2025-06-22T17:39:58,East,Boston
+1322,casual,2022-05-06T17:39:58,East,Boston
+1323,casual,2022-12-16T17:39:58,East,Ottawa
+1324,bargain,2022-02-18T17:39:58,East,Montreal
+1325,casual,2022-01-24T17:39:58,Central,Minneapolis
+1326,casual,2022-12-26T17:39:58,West,Portland
+1327,bargain,2021-09-26T17:39:58,West,Calgary
+1328,bargain,2023-10-17T17:39:58,Central,Chicago
+1329,bargain,2024-06-09T17:39:58,West,Calgary
+1330,casual,2021-12-15T17:39:58,Central,Houston
+1331,casual,2024-04-03T17:39:58,East,Montreal
+1332,casual,2024-07-02T17:39:58,West,Seattle
+1333,loyal,2022-11-09T17:39:58,Central,Chicago
+1334,premium,2021-12-14T17:39:58,Central,Chicago
+1335,casual,2024-01-19T17:39:58,West,Seattle
+1336,loyal,2021-11-20T17:39:58,Central,Houston
+1337,bargain,2022-11-08T17:39:58,East,New York
+1338,loyal,2023-10-27T17:39:58,West,Vancouver
+1339,loyal,2023-07-17T17:39:58,West,San Francisco
+1340,casual,2024-10-16T17:39:58,West,San Francisco
+1341,premium,2022-10-10T17:39:58,East,Ottawa
+1342,premium,2022-04-29T17:39:58,East,Ottawa
+1343,bargain,2022-10-18T17:39:58,East,Philadelphia
+1344,bargain,2024-11-22T17:39:58,West,San Jose
+1345,bargain,2022-04-21T17:39:58,Central,Houston
+1346,premium,2024-04-03T17:39:58,East,Ottawa
+1347,casual,2024-12-24T17:39:58,West,Seattle
+1348,casual,2023-04-16T17:39:58,Central,Chicago
+1349,loyal,2022-10-30T17:39:58,East,New York
+1350,loyal,2023-10-21T17:39:58,East,New York
+1351,premium,2024-03-13T17:39:58,Central,Kansas City
+1352,bargain,2022-11-30T17:39:58,West,Portland
+1353,premium,2021-12-17T17:39:58,Central,Denver
+1354,bargain,2021-11-12T17:39:58,East,New York
+1355,casual,2021-10-24T17:39:58,West,Calgary
+1356,loyal,2023-11-05T17:39:58,East,Toronto
+1357,casual,2021-09-26T17:39:58,East,Philadelphia
+1358,casual,2023-05-27T17:39:58,West,San Francisco
+1359,casual,2023-11-22T17:39:58,Central,Houston
+1360,bargain,2024-05-26T17:39:58,West,Portland
+1361,casual,2022-01-14T17:39:58,West,San Francisco
+1362,casual,2025-05-22T17:39:58,East,Toronto
+1363,bargain,2022-12-09T17:39:58,West,San Francisco
+1364,bargain,2023-03-18T17:39:58,Central,Kansas City
+1365,casual,2021-08-30T17:39:58,West,Seattle
+1366,loyal,2023-03-22T17:39:58,West,Portland
+1367,casual,2023-09-30T17:39:58,East,Ottawa
+1368,loyal,2021-12-25T17:39:58,West,Vancouver
+1369,casual,2021-12-26T17:39:58,East,Toronto
+1370,casual,2022-01-21T17:39:58,Central,Dallas
+1371,casual,2024-12-16T17:39:58,East,New York
+1372,bargain,2021-12-09T17:39:58,East,Ottawa
+1373,bargain,2023-04-12T17:39:58,East,Ottawa
+1374,bargain,2022-11-24T17:39:58,Central,Chicago
+1375,loyal,2024-08-09T17:39:58,West,Portland
+1376,casual,2024-06-19T17:39:58,Central,Houston
+1377,bargain,2023-05-17T17:39:58,Central,Dallas
+1378,premium,2025-06-18T17:39:58,East,Boston
+1379,loyal,2022-02-23T17:39:58,East,Ottawa
+1380,casual,2024-06-19T17:39:58,West,San Francisco
+1381,loyal,2023-05-01T17:39:58,West,Vancouver
+1382,casual,2024-09-28T17:39:58,East,Philadelphia
+1383,casual,2022-05-26T17:39:58,Central,Dallas
+1384,bargain,2023-02-20T17:39:58,East,Montreal
+1385,casual,2022-10-22T17:39:58,Central,Kansas City
+1386,premium,2024-07-05T17:39:58,East,Boston
+1387,casual,2022-10-22T17:39:58,Central,Houston
+1388,casual,2022-03-20T17:39:58,Central,Dallas
+1389,casual,2021-10-13T17:39:58,Central,Kansas City
+1390,casual,2024-10-05T17:39:58,West,San Francisco
+1391,casual,2022-02-11T17:39:58,Central,Dallas
+1392,loyal,2022-04-24T17:39:58,West,Portland
+1393,casual,2025-07-09T17:39:58,Central,Denver
+1394,loyal,2023-05-08T17:39:58,Central,Kansas City
+1395,bargain,2023-03-17T17:39:58,East,Toronto
+1396,loyal,2025-01-16T17:39:58,Central,Denver
+1397,casual,2024-04-06T17:39:58,West,Portland
+1398,premium,2021-10-26T17:39:58,Central,Minneapolis
+1399,casual,2025-04-28T17:39:58,East,Ottawa
+1400,casual,2023-06-11T17:39:58,East,Montreal
+1401,casual,2023-07-02T17:39:58,Central,Kansas City
+1402,casual,2022-04-29T17:39:58,East,New York
+1403,premium,2022-10-25T17:39:58,West,San Jose
+1404,casual,2025-01-28T17:39:58,Central,Dallas
+1405,casual,2024-10-13T17:39:58,East,Toronto
+1406,casual,2024-11-11T17:39:58,Central,Denver
+1407,premium,2023-07-23T17:39:58,Central,Kansas City
+1408,bargain,2022-02-21T17:39:58,Central,Houston
+1409,casual,2023-10-28T17:39:58,Central,Minneapolis
+1410,bargain,2022-10-28T17:39:58,West,Portland
+1411,loyal,2021-11-22T17:39:58,West,San Jose
+1412,casual,2024-07-09T17:39:58,Central,Denver
+1413,casual,2025-05-18T17:39:58,West,Seattle
+1414,casual,2022-12-17T17:39:58,West,Calgary
+1415,casual,2023-02-07T17:39:58,Central,Denver
+1416,casual,2022-11-10T17:39:58,East,Montreal
+1417,casual,2024-09-30T17:39:58,West,Calgary
+1418,casual,2023-12-27T17:39:58,West,Seattle
+1419,bargain,2022-09-23T17:39:58,West,Calgary
+1420,casual,2022-04-18T17:39:58,East,Ottawa
+1421,casual,2022-05-19T17:39:58,West,San Jose
+1422,loyal,2022-10-14T17:39:58,West,Seattle
+1423,loyal,2023-12-26T17:39:58,Central,Denver
+1424,casual,2023-05-15T17:39:58,East,New York
+1425,casual,2024-09-19T17:39:58,West,Portland
+1426,casual,2021-11-18T17:39:58,Central,Kansas City
+1427,loyal,2022-04-01T17:39:58,East,Philadelphia
+1428,loyal,2021-11-25T17:39:58,Central,Denver
+1429,casual,2022-05-22T17:39:58,Central,Houston
+1430,casual,2023-12-29T17:39:58,West,Calgary
+1431,loyal,2025-03-08T17:39:58,West,Calgary
+1432,casual,2025-01-22T17:39:58,East,Toronto
+1433,casual,2023-05-06T17:39:58,West,Seattle
+1434,bargain,2023-05-27T17:39:58,West,Seattle
+1435,casual,2021-11-29T17:39:58,Central,Kansas City
+1436,bargain,2023-02-26T17:39:58,Central,Chicago
+1437,casual,2022-03-13T17:39:58,Central,Kansas City
+1438,loyal,2023-07-09T17:39:58,East,New York
+1439,casual,2023-05-28T17:39:58,Central,Chicago
+1440,casual,2023-03-17T17:39:58,East,Montreal
+1441,casual,2022-02-19T17:39:58,Central,Houston
+1442,casual,2025-01-21T17:39:58,East,Toronto
+1443,casual,2021-10-14T17:39:58,Central,Chicago
+1444,premium,2024-09-16T17:39:58,East,Ottawa
+1445,loyal,2021-12-13T17:39:58,East,Ottawa
+1446,casual,2023-02-16T17:39:58,Central,Chicago
+1447,premium,2024-09-29T17:39:58,Central,Houston
+1448,loyal,2024-03-08T17:39:58,East,Philadelphia
+1449,loyal,2025-04-24T17:39:58,Central,Minneapolis
+1450,loyal,2024-12-22T17:39:58,West,San Jose
+1451,loyal,2022-12-22T17:39:58,Central,Denver
+1452,casual,2023-08-03T17:39:58,East,Philadelphia
+1453,casual,2025-06-27T17:39:58,West,San Jose
+1454,bargain,2024-07-28T17:39:58,East,Toronto
+1455,casual,2025-02-10T17:39:58,Central,Denver
+1456,loyal,2023-10-27T17:39:58,East,Philadelphia
+1457,loyal,2023-01-21T17:39:58,Central,Kansas City
+1458,casual,2024-07-12T17:39:58,Central,Houston
+1459,casual,2022-03-11T17:39:58,West,Calgary
+1460,loyal,2023-02-23T17:39:58,East,New York
+1461,casual,2024-12-04T17:39:58,West,San Francisco
+1462,loyal,2022-12-31T17:39:58,East,Toronto
+1463,bargain,2022-03-16T17:39:58,East,Ottawa
+1464,casual,2022-02-13T17:39:58,Central,Minneapolis
+1465,casual,2021-10-17T17:39:58,East,Ottawa
+1466,casual,2024-11-16T17:39:58,Central,Denver
+1467,loyal,2025-06-28T17:39:58,West,Vancouver
+1468,casual,2024-05-28T17:39:58,West,Vancouver
+1469,casual,2024-03-22T17:39:58,West,Calgary
+1470,casual,2024-07-05T17:39:58,East,Montreal
+1471,casual,2022-12-03T17:39:58,Central,Dallas
+1472,bargain,2024-09-21T17:39:58,West,Seattle
+1473,casual,2022-12-08T17:39:58,Central,Chicago
+1474,casual,2024-03-21T17:39:58,Central,Minneapolis
+1475,casual,2025-04-17T17:39:58,East,Toronto
+1476,premium,2023-02-27T17:39:58,West,Calgary
+1477,loyal,2022-05-02T17:39:58,Central,Kansas City
+1478,casual,2025-05-16T17:39:58,East,Philadelphia
+1479,bargain,2022-04-07T17:39:58,Central,Minneapolis
+1480,bargain,2024-04-12T17:39:58,East,Toronto
+1481,loyal,2023-03-19T17:39:58,East,New York
+1482,bargain,2024-01-29T17:39:58,East,New York
+1483,casual,2024-12-03T17:39:58,Central,Chicago
+1484,loyal,2023-01-24T17:39:58,East,Philadelphia
+1485,bargain,2023-12-19T17:39:58,West,Seattle
+1486,casual,2023-02-14T17:39:58,Central,Houston
+1487,casual,2021-09-27T17:39:58,West,San Jose
+1488,casual,2021-11-23T17:39:58,East,Ottawa
+1489,premium,2023-05-23T17:39:58,Central,Kansas City
+1490,bargain,2023-07-24T17:39:58,East,Ottawa
+1491,casual,2024-06-01T17:39:58,West,San Jose
+1492,casual,2021-11-02T17:39:58,East,New York
+1493,loyal,2024-09-13T17:39:58,West,Seattle
+1494,casual,2022-10-23T17:39:58,West,San Francisco
+1495,premium,2025-04-25T17:39:58,West,San Jose
+1496,loyal,2023-07-30T17:39:58,Central,Houston
+1497,bargain,2025-05-26T17:39:58,West,San Jose
+1498,loyal,2024-12-09T17:39:58,Central,Chicago
+1499,casual,2024-04-28T17:39:58,West,San Jose
+1500,bargain,2025-04-26T17:39:58,Central,Houston
+1501,bargain,2024-09-24T17:39:58,East,Philadelphia
+1502,casual,2021-10-28T17:39:58,East,Montreal
+1503,premium,2023-01-06T17:39:58,West,San Francisco
+1504,loyal,2022-02-26T17:39:58,West,Vancouver
+1505,loyal,2025-05-06T17:39:58,West,San Jose
+1506,bargain,2024-12-01T17:39:58,West,Calgary
+1507,bargain,2023-12-10T17:39:58,Central,Dallas
+1508,casual,2025-01-08T17:39:58,East,Toronto
+1509,casual,2024-10-21T17:39:58,Central,Houston
+1510,bargain,2023-04-01T17:39:58,West,San Francisco
+1511,casual,2022-12-03T17:39:58,West,Seattle
+1512,casual,2025-02-06T17:39:58,East,Boston
+1513,loyal,2023-07-23T17:39:58,East,Toronto
+1514,casual,2022-08-11T17:39:58,West,Seattle
+1515,casual,2023-03-05T17:39:58,West,Seattle
+1516,bargain,2022-09-07T17:39:58,Central,Chicago
+1517,casual,2023-02-05T17:39:58,Central,Denver
+1518,premium,2022-09-05T17:39:58,West,Calgary
+1519,casual,2023-10-25T17:39:58,West,Portland
+1520,casual,2025-03-27T17:39:58,West,San Francisco
+1521,casual,2021-12-25T17:39:58,West,Calgary
+1522,premium,2022-01-14T17:39:58,East,New York
+1523,casual,2023-12-03T17:39:58,East,Montreal
+1524,bargain,2022-06-23T17:39:58,East,Ottawa
+1525,premium,2023-10-27T17:39:58,East,Ottawa
+1526,loyal,2022-08-15T17:39:58,West,Portland
+1527,casual,2023-04-25T17:39:58,West,Calgary
+1528,bargain,2022-01-29T17:39:58,West,San Jose
+1529,casual,2021-09-01T17:39:58,East,Toronto
+1530,bargain,2024-06-21T17:39:58,East,Toronto
+1531,casual,2022-07-26T17:39:58,West,Vancouver
+1532,loyal,2024-11-14T17:39:58,East,Ottawa
+1533,casual,2024-05-19T17:39:58,East,Philadelphia
+1534,casual,2022-08-28T17:39:58,East,Philadelphia
+1535,casual,2025-06-13T17:39:58,East,Boston
+1536,casual,2024-02-17T17:39:58,East,Montreal
+1537,premium,2023-03-18T17:39:58,Central,Kansas City
+1538,bargain,2025-03-30T17:39:58,West,Calgary
+1539,casual,2022-09-25T17:39:58,Central,Kansas City
+1540,casual,2024-11-17T17:39:58,West,Calgary
+1541,casual,2025-07-20T17:39:58,East,Ottawa
+1542,loyal,2022-04-26T17:39:58,West,Calgary
+1543,bargain,2022-08-03T17:39:58,East,Ottawa
+1544,casual,2023-11-26T17:39:58,West,Portland
+1545,casual,2021-10-22T17:39:58,East,Montreal
+1546,casual,2024-03-10T17:39:58,Central,Minneapolis
+1547,bargain,2024-07-01T17:39:58,East,Montreal
+1548,casual,2025-01-11T17:39:58,Central,Chicago
+1549,casual,2025-02-13T17:39:58,Central,Chicago
+1550,casual,2022-11-28T17:39:58,Central,Dallas
+1551,loyal,2021-10-13T17:39:58,West,Portland
+1552,bargain,2022-09-02T17:39:58,East,Montreal
+1553,loyal,2022-10-13T17:39:58,Central,Minneapolis
+1554,bargain,2022-11-01T17:39:58,Central,Kansas City
+1555,loyal,2024-10-08T17:39:58,Central,Dallas
+1556,casual,2023-01-05T17:39:58,Central,Kansas City
+1557,casual,2022-08-12T17:39:58,East,Montreal
+1558,casual,2022-12-04T17:39:58,West,San Francisco
+1559,premium,2023-07-05T17:39:58,West,San Jose
+1560,casual,2023-04-16T17:39:58,West,San Jose
+1561,casual,2023-12-15T17:39:58,Central,Minneapolis
+1562,casual,2023-07-01T17:39:58,West,Vancouver
+1563,casual,2023-12-06T17:39:58,Central,Houston
+1564,casual,2022-04-10T17:39:58,West,Seattle
+1565,casual,2024-05-15T17:39:58,Central,Houston
+1566,casual,2025-07-26T17:39:58,East,Toronto
+1567,casual,2025-04-30T17:39:58,Central,Denver
+1568,casual,2022-05-29T17:39:58,East,Philadelphia
+1569,bargain,2022-11-30T17:39:58,Central,Chicago
+1570,loyal,2024-10-20T17:39:58,East,Boston
+1571,casual,2021-11-02T17:39:58,Central,Chicago
+1572,bargain,2025-01-29T17:39:58,East,Philadelphia
+1573,casual,2023-04-14T17:39:58,East,Montreal
+1574,casual,2022-07-19T17:39:58,Central,Houston
+1575,loyal,2024-01-09T17:39:58,East,Toronto
+1576,loyal,2025-06-10T17:39:58,West,Calgary
+1577,loyal,2022-06-07T17:39:58,East,Philadelphia
+1578,casual,2025-02-06T17:39:58,East,Montreal
+1579,bargain,2022-05-06T17:39:58,East,Montreal
+1580,bargain,2024-07-08T17:39:58,East,Montreal
+1581,loyal,2024-11-26T17:39:58,East,New York
+1582,casual,2025-06-22T17:39:58,East,Boston
+1583,casual,2022-05-01T17:39:58,West,Seattle
+1584,casual,2023-10-13T17:39:58,East,Montreal
+1585,casual,2025-06-13T17:39:58,West,San Francisco
+1586,bargain,2025-06-11T17:39:58,West,San Francisco
+1587,casual,2024-02-20T17:39:58,Central,Chicago
+1588,casual,2024-08-20T17:39:58,West,San Jose
+1589,casual,2025-01-28T17:39:58,West,Portland
+1590,casual,2024-08-18T17:39:58,Central,Kansas City
+1591,bargain,2025-06-05T17:39:58,Central,Dallas
+1592,casual,2025-01-09T17:39:58,Central,Chicago
+1593,casual,2024-02-18T17:39:58,Central,Houston
+1594,casual,2024-06-11T17:39:58,West,Vancouver
+1595,casual,2024-04-02T17:39:58,East,Montreal
+1596,casual,2024-12-07T17:39:58,East,Toronto
+1597,casual,2022-06-24T17:39:58,Central,Chicago
+1598,loyal,2023-04-18T17:39:58,Central,Denver
+1599,premium,2022-06-22T17:39:58,West,Portland
+1600,bargain,2024-03-13T17:39:58,East,New York
+1601,loyal,2023-11-15T17:39:58,East,Boston
+1602,loyal,2022-01-05T17:39:58,Central,Denver
+1603,premium,2022-07-20T17:39:58,West,Portland
+1604,premium,2023-03-16T17:39:58,West,San Jose
+1605,casual,2025-05-06T17:39:58,East,Toronto
+1606,loyal,2023-12-16T17:39:58,Central,Minneapolis
+1607,premium,2025-03-29T17:39:58,West,Vancouver
+1608,casual,2022-03-24T17:39:58,Central,Houston
+1609,bargain,2023-08-11T17:39:58,East,Toronto
+1610,casual,2022-09-19T17:39:58,West,San Jose
+1611,loyal,2022-08-02T17:39:58,West,Calgary
+1612,loyal,2023-05-13T17:39:58,Central,Denver
+1613,premium,2022-06-17T17:39:58,West,Calgary
+1614,loyal,2022-02-26T17:39:58,Central,Dallas
+1615,loyal,2023-08-29T17:39:58,Central,Kansas City
+1616,casual,2024-01-18T17:39:58,East,Toronto
+1617,casual,2024-05-25T17:39:58,Central,Houston
+1618,premium,2025-06-28T17:39:58,East,Philadelphia
+1619,loyal,2025-07-26T17:39:58,West,Calgary
+1620,casual,2021-10-22T17:39:58,West,Vancouver
+1621,bargain,2022-11-02T17:39:58,East,Ottawa
+1622,loyal,2021-12-09T17:39:58,East,New York
+1623,casual,2021-10-24T17:39:58,East,New York
+1624,bargain,2023-06-21T17:39:58,West,Portland
+1625,bargain,2024-08-02T17:39:58,Central,Chicago
+1626,casual,2024-11-17T17:39:58,East,New York
+1627,casual,2025-07-11T17:39:58,West,San Francisco
+1628,premium,2021-10-06T17:39:58,West,Portland
+1629,bargain,2025-01-27T17:39:58,Central,Dallas
+1630,casual,2024-05-04T17:39:58,East,Philadelphia
+1631,casual,2025-05-16T17:39:58,Central,Houston
+1632,casual,2022-03-07T17:39:58,East,Ottawa
+1633,casual,2023-05-11T17:39:58,West,Calgary
+1634,casual,2022-10-10T17:39:58,Central,Minneapolis
+1635,bargain,2021-11-17T17:39:58,East,Boston
+1636,loyal,2022-03-14T17:39:58,East,Ottawa
+1637,bargain,2024-11-10T17:39:58,West,San Jose
+1638,bargain,2022-05-20T17:39:58,West,Portland
+1639,casual,2024-01-16T17:39:58,East,Ottawa
+1640,loyal,2021-09-10T17:39:58,East,New York
+1641,loyal,2021-10-05T17:39:58,East,Philadelphia
+1642,loyal,2023-03-09T17:39:58,Central,Denver
+1643,casual,2023-10-08T17:39:58,East,New York
+1644,loyal,2024-11-23T17:39:58,Central,Houston
+1645,loyal,2023-07-21T17:39:58,Central,Chicago
+1646,casual,2024-04-27T17:39:58,West,Calgary
+1647,casual,2023-01-23T17:39:58,Central,Minneapolis
+1648,casual,2023-09-14T17:39:58,Central,Dallas
+1649,premium,2024-04-24T17:39:58,East,New York
+1650,casual,2024-03-06T17:39:58,Central,Denver
+1651,loyal,2025-03-24T17:39:58,Central,Houston
+1652,casual,2022-11-21T17:39:58,West,Vancouver
+1653,premium,2022-01-25T17:39:58,West,San Jose
+1654,casual,2024-12-22T17:39:58,Central,Dallas
+1655,loyal,2023-09-16T17:39:58,Central,Denver
+1656,loyal,2022-03-20T17:39:58,West,Vancouver
+1657,loyal,2023-01-28T17:39:58,West,Calgary
+1658,casual,2025-05-23T17:39:58,West,Vancouver
+1659,casual,2024-11-11T17:39:58,East,New York
+1660,loyal,2023-11-21T17:39:58,Central,Denver
+1661,loyal,2025-01-03T17:39:58,Central,Denver
+1662,bargain,2023-12-05T17:39:58,East,New York
+1663,bargain,2022-02-12T17:39:58,Central,Denver
+1664,loyal,2021-11-17T17:39:58,West,San Jose
+1665,bargain,2022-12-23T17:39:58,Central,Chicago
+1666,casual,2025-01-04T17:39:58,East,Montreal
+1667,loyal,2023-01-13T17:39:58,East,New York
+1668,casual,2024-12-21T17:39:58,East,Boston
+1669,loyal,2025-03-14T17:39:58,East,Ottawa
+1670,loyal,2024-11-14T17:39:58,West,San Jose
+1671,casual,2023-03-21T17:39:58,Central,Houston
+1672,casual,2024-07-15T17:39:58,East,Toronto
+1673,casual,2024-11-11T17:39:58,West,Vancouver
+1674,bargain,2021-12-04T17:39:58,Central,Minneapolis
+1675,bargain,2022-07-18T17:39:58,Central,Minneapolis
+1676,loyal,2023-11-06T17:39:58,West,San Francisco
+1677,loyal,2025-07-14T17:39:58,Central,Houston
+1678,casual,2024-10-07T17:39:58,East,Ottawa
+1679,casual,2025-04-10T17:39:58,East,Montreal
+1680,premium,2021-12-27T17:39:58,West,Seattle
+1681,loyal,2024-07-08T17:39:58,West,Portland
+1682,loyal,2022-12-16T17:39:58,East,Ottawa
+1683,premium,2022-05-28T17:39:58,Central,Minneapolis
+1684,casual,2023-03-26T17:39:58,East,Philadelphia
+1685,casual,2025-05-05T17:39:58,West,San Francisco
+1686,loyal,2024-04-30T17:39:58,West,Calgary
+1687,casual,2024-05-20T17:39:58,Central,Minneapolis
+1688,casual,2023-06-22T17:39:58,East,Philadelphia
+1689,casual,2023-07-18T17:39:58,West,Vancouver
+1690,casual,2022-06-20T17:39:58,Central,Denver
+1691,loyal,2024-06-27T17:39:58,Central,Chicago
+1692,casual,2025-05-31T17:39:58,Central,Denver
+1693,bargain,2024-05-08T17:39:58,Central,Dallas
+1694,bargain,2023-09-04T17:39:58,East,Boston
+1695,casual,2024-06-24T17:39:58,West,Seattle
+1696,bargain,2025-06-18T17:39:58,Central,Denver
+1697,bargain,2021-11-27T17:39:58,West,San Francisco
+1698,casual,2024-05-26T17:39:58,West,Portland
+1699,loyal,2023-06-29T17:39:58,West,Portland
+1700,bargain,2023-02-23T17:39:58,East,Montreal
+1701,bargain,2024-10-08T17:39:58,West,Vancouver
+1702,loyal,2024-07-03T17:39:58,West,Seattle
+1703,loyal,2023-10-18T17:39:58,East,Philadelphia
+1704,bargain,2025-04-27T17:39:58,East,Boston
+1705,casual,2022-07-30T17:39:58,East,Boston
+1706,casual,2024-03-11T17:39:58,West,Portland
+1707,premium,2022-09-24T17:39:58,Central,Dallas
+1708,bargain,2025-02-14T17:39:58,Central,Dallas
+1709,casual,2025-03-20T17:39:58,East,Montreal
+1710,casual,2022-09-22T17:39:58,Central,Kansas City
+1711,casual,2024-07-29T17:39:58,East,Toronto
+1712,casual,2021-09-07T17:39:58,Central,Minneapolis
+1713,loyal,2024-01-28T17:39:58,Central,Chicago
+1714,casual,2021-12-08T17:39:58,East,Montreal
+1715,bargain,2023-01-17T17:39:58,West,Seattle
+1716,casual,2023-11-12T17:39:58,Central,Dallas
+1717,premium,2024-09-12T17:39:58,Central,Minneapolis
+1718,casual,2022-06-29T17:39:58,Central,Houston
+1719,loyal,2023-02-01T17:39:58,West,Portland
+1720,casual,2025-05-07T17:39:58,West,San Jose
+1721,casual,2023-03-11T17:39:58,East,Philadelphia
+1722,bargain,2023-07-09T17:39:58,Central,Chicago
+1723,casual,2023-06-08T17:39:58,Central,Houston
+1724,loyal,2024-02-03T17:39:58,Central,Dallas
+1725,bargain,2023-12-05T17:39:58,Central,Denver
+1726,casual,2021-12-20T17:39:58,East,Montreal
+1727,casual,2025-01-10T17:39:58,Central,Dallas
+1728,casual,2022-07-08T17:39:58,Central,Denver
+1729,casual,2023-09-25T17:39:58,West,Calgary
+1730,casual,2024-01-15T17:39:58,East,Ottawa
+1731,premium,2022-07-14T17:39:58,East,Boston
+1732,bargain,2023-12-31T17:39:58,West,Portland
+1733,bargain,2022-04-30T17:39:58,Central,Chicago
+1734,loyal,2021-11-29T17:39:58,West,San Francisco
+1735,casual,2024-04-20T17:39:58,West,San Francisco
+1736,casual,2022-12-02T17:39:58,East,Boston
+1737,bargain,2022-12-14T17:39:58,East,Montreal
+1738,casual,2025-02-05T17:39:58,Central,Houston
+1739,casual,2021-08-31T17:39:58,West,San Francisco
+1740,casual,2022-06-13T17:39:58,Central,Chicago
+1741,casual,2024-11-10T17:39:58,West,San Jose
+1742,bargain,2022-10-11T17:39:58,East,New York
+1743,casual,2024-04-25T17:39:58,Central,Houston
+1744,loyal,2021-09-15T17:39:58,East,Toronto
+1745,loyal,2025-06-13T17:39:58,Central,Minneapolis
+1746,premium,2024-09-19T17:39:58,West,Seattle
+1747,bargain,2022-01-18T17:39:58,Central,Minneapolis
+1748,premium,2023-05-22T17:39:58,East,Montreal
+1749,loyal,2025-03-22T17:39:58,West,San Francisco
+1750,casual,2024-12-20T17:39:58,West,San Francisco
+1751,casual,2023-11-15T17:39:58,Central,Kansas City
+1752,casual,2022-06-24T17:39:58,West,Calgary
+1753,casual,2022-11-03T17:39:58,East,Montreal
+1754,casual,2023-06-01T17:39:58,West,Vancouver
+1755,loyal,2021-11-18T17:39:58,West,Portland
+1756,loyal,2023-07-07T17:39:58,Central,Denver
+1757,casual,2023-04-11T17:39:58,West,Portland
+1758,casual,2022-07-28T17:39:58,West,Seattle
+1759,premium,2023-05-26T17:39:58,East,New York
+1760,casual,2024-06-04T17:39:58,West,Seattle
+1761,casual,2022-12-01T17:39:58,East,Ottawa
+1762,casual,2022-04-14T17:39:58,East,Philadelphia
+1763,casual,2023-01-03T17:39:58,East,Ottawa
+1764,casual,2023-01-30T17:39:58,West,Seattle
+1765,loyal,2024-03-12T17:39:58,Central,Minneapolis
+1766,casual,2022-12-31T17:39:58,East,Toronto
+1767,casual,2025-01-25T17:39:58,West,Calgary
+1768,casual,2023-11-29T17:39:58,Central,Houston
+1769,casual,2024-03-07T17:39:58,West,San Francisco
+1770,casual,2023-02-27T17:39:58,East,Ottawa
+1771,loyal,2021-08-30T17:39:58,East,Boston
+1772,casual,2025-05-02T17:39:58,Central,Kansas City
+1773,loyal,2022-01-21T17:39:58,West,Portland
+1774,bargain,2021-08-31T17:39:58,East,New York
+1775,premium,2023-04-10T17:39:58,West,San Francisco
+1776,casual,2023-07-06T17:39:58,East,New York
+1777,casual,2023-10-02T17:39:58,West,San Jose
+1778,loyal,2024-06-01T17:39:58,West,Portland
+1779,loyal,2025-03-03T17:39:58,Central,Denver
+1780,casual,2022-12-28T17:39:58,East,Ottawa
+1781,casual,2024-06-27T17:39:58,East,Toronto
+1782,bargain,2024-12-08T17:39:58,West,Portland
+1783,bargain,2021-10-27T17:39:58,West,Portland
+1784,casual,2025-03-13T17:39:58,Central,Chicago
+1785,casual,2023-02-15T17:39:58,East,Boston
+1786,bargain,2024-08-15T17:39:58,Central,Dallas
+1787,casual,2024-08-02T17:39:58,East,New York
+1788,casual,2023-05-22T17:39:58,East,Ottawa
+1789,casual,2021-10-12T17:39:58,East,New York
+1790,casual,2024-07-31T17:39:58,Central,Houston
+1791,casual,2022-08-05T17:39:58,West,Calgary
+1792,bargain,2022-01-07T17:39:58,East,New York
+1793,bargain,2021-11-17T17:39:58,East,Ottawa
+1794,casual,2023-11-07T17:39:58,Central,Kansas City
+1795,bargain,2025-04-22T17:39:58,East,New York
+1796,premium,2023-06-24T17:39:58,West,Seattle
+1797,casual,2025-06-28T17:39:58,West,Vancouver
+1798,loyal,2024-07-02T17:39:58,West,Portland
+1799,bargain,2025-01-14T17:39:58,West,Seattle
+1800,casual,2024-08-22T17:39:58,East,Boston
+1801,casual,2023-09-30T17:39:58,East,New York
+1802,casual,2022-01-28T17:39:58,East,Boston
+1803,casual,2023-03-07T17:39:58,East,Toronto
+1804,casual,2023-07-31T17:39:58,West,Vancouver
+1805,casual,2021-11-29T17:39:58,West,San Francisco
+1806,casual,2023-01-03T17:39:58,Central,Dallas
+1807,loyal,2021-12-07T17:39:58,East,Philadelphia
+1808,casual,2024-05-09T17:39:58,West,Vancouver
+1809,bargain,2025-01-03T17:39:58,East,Toronto
+1810,premium,2024-03-02T17:39:58,East,Boston
+1811,loyal,2022-01-15T17:39:58,East,Philadelphia
+1812,casual,2024-10-31T17:39:58,East,Ottawa
+1813,premium,2023-10-18T17:39:58,East,Ottawa
+1814,casual,2025-03-14T17:39:58,East,Toronto
+1815,casual,2023-01-23T17:39:58,East,Montreal
+1816,loyal,2024-04-10T17:39:58,East,Ottawa
+1817,casual,2024-04-10T17:39:58,East,New York
+1818,bargain,2024-04-02T17:39:58,West,Portland
+1819,casual,2025-02-18T17:39:58,West,San Jose
+1820,casual,2023-12-01T17:39:58,Central,Chicago
+1821,casual,2021-12-24T17:39:58,Central,Dallas
+1822,bargain,2023-02-03T17:39:58,East,Montreal
+1823,casual,2024-01-08T17:39:58,Central,Dallas
+1824,loyal,2023-04-03T17:39:58,West,San Jose
+1825,bargain,2024-04-17T17:39:58,Central,Denver
+1826,casual,2024-03-21T17:39:58,Central,Houston
+1827,bargain,2024-03-09T17:39:58,West,Calgary
+1828,loyal,2024-05-01T17:39:58,East,Ottawa
+1829,casual,2023-10-11T17:39:58,Central,Minneapolis
+1830,bargain,2025-03-20T17:39:58,East,New York
+1831,loyal,2025-04-15T17:39:58,West,Seattle
+1832,casual,2024-11-15T17:39:58,West,Seattle
+1833,casual,2024-06-07T17:39:58,East,Montreal
+1834,casual,2022-12-17T17:39:58,West,San Francisco
+1835,casual,2024-03-16T17:39:58,East,Boston
+1836,casual,2023-11-18T17:39:58,East,Boston
+1837,casual,2024-06-13T17:39:58,Central,Kansas City
+1838,casual,2023-07-25T17:39:58,Central,Denver
+1839,casual,2023-02-08T17:39:58,West,San Francisco
+1840,bargain,2023-02-24T17:39:58,East,Ottawa
+1841,casual,2023-06-10T17:39:58,Central,Denver
+1842,loyal,2022-03-30T17:39:58,West,Portland
+1843,casual,2024-08-05T17:39:58,East,Ottawa
+1844,casual,2023-01-14T17:39:58,Central,Houston
+1845,casual,2022-11-19T17:39:58,East,Montreal
+1846,casual,2022-12-12T17:39:58,West,Calgary
+1847,bargain,2025-07-04T17:39:58,West,Vancouver
+1848,casual,2023-06-25T17:39:58,East,Ottawa
+1849,casual,2023-06-27T17:39:58,Central,Chicago
+1850,casual,2022-04-13T17:39:58,Central,Kansas City
+1851,premium,2023-06-03T17:39:58,West,Vancouver
+1852,premium,2023-02-18T17:39:58,West,Seattle
+1853,bargain,2022-09-21T17:39:58,East,Philadelphia
+1854,loyal,2023-07-07T17:39:58,East,Ottawa
+1855,bargain,2023-03-15T17:39:58,East,Toronto
+1856,premium,2025-05-21T17:39:58,West,San Francisco
+1857,casual,2021-10-14T17:39:58,Central,Kansas City
+1858,casual,2024-10-01T17:39:58,East,Ottawa
+1859,casual,2024-10-02T17:39:58,Central,Kansas City
+1860,bargain,2021-11-11T17:39:58,East,Montreal
+1861,loyal,2025-01-22T17:39:58,West,Vancouver
+1862,premium,2022-04-17T17:39:58,Central,Chicago
+1863,bargain,2024-07-09T17:39:58,West,San Jose
+1864,loyal,2024-02-29T17:39:58,West,San Francisco
+1865,bargain,2021-11-20T17:39:58,East,Montreal
+1866,bargain,2023-04-10T17:39:58,East,Philadelphia
+1867,loyal,2024-12-19T17:39:58,East,New York
+1868,bargain,2024-01-27T17:39:58,Central,Dallas
+1869,casual,2023-11-08T17:39:58,East,Toronto
+1870,casual,2025-07-27T17:39:58,West,San Francisco
+1871,casual,2022-08-20T17:39:58,East,Toronto
+1872,casual,2023-03-01T17:39:58,Central,Kansas City
+1873,casual,2024-10-28T17:39:58,Central,Dallas
+1874,casual,2024-12-17T17:39:58,West,San Jose
+1875,casual,2024-06-14T17:39:58,West,Seattle
+1876,premium,2024-02-15T17:39:58,West,Seattle
+1877,premium,2022-01-24T17:39:58,Central,Chicago
+1878,casual,2024-08-24T17:39:58,West,Calgary
+1879,casual,2024-11-17T17:39:58,West,San Francisco
+1880,casual,2022-04-18T17:39:58,Central,Denver
+1881,casual,2025-01-05T17:39:58,Central,Kansas City
+1882,loyal,2021-11-06T17:39:58,Central,Denver
+1883,loyal,2024-05-24T17:39:58,West,Vancouver
+1884,loyal,2022-03-14T17:39:58,West,San Francisco
+1885,bargain,2022-12-04T17:39:58,Central,Chicago
+1886,casual,2023-09-10T17:39:58,East,Toronto
+1887,premium,2024-03-27T17:39:58,Central,Houston
+1888,loyal,2023-06-16T17:39:58,East,Toronto
+1889,casual,2025-01-06T17:39:58,Central,Houston
+1890,casual,2024-10-19T17:39:58,East,Toronto
+1891,premium,2024-01-05T17:39:58,West,San Jose
+1892,loyal,2023-01-17T17:39:58,West,Portland
+1893,casual,2022-09-10T17:39:58,East,Toronto
+1894,premium,2022-01-01T17:39:58,West,Vancouver
+1895,casual,2022-01-10T17:39:58,Central,Denver
+1896,loyal,2023-10-03T17:39:58,West,Calgary
+1897,casual,2022-11-11T17:39:58,West,San Jose
+1898,casual,2023-08-17T17:39:58,East,New York
+1899,bargain,2025-01-06T17:39:58,Central,Kansas City
+1900,bargain,2024-06-26T17:39:58,Central,Minneapolis
+1901,casual,2022-10-01T17:39:58,East,Montreal
+1902,bargain,2023-11-21T17:39:58,Central,Denver
+1903,bargain,2024-08-20T17:39:58,East,Toronto
+1904,loyal,2021-11-11T17:39:58,West,San Francisco
+1905,bargain,2024-08-15T17:39:58,West,Seattle
+1906,casual,2025-01-28T17:39:58,East,Ottawa
+1907,premium,2024-09-05T17:39:58,East,New York
+1908,casual,2024-01-03T17:39:58,Central,Chicago
+1909,premium,2022-11-28T17:39:58,Central,Kansas City
+1910,casual,2021-11-06T17:39:58,East,New York
+1911,casual,2022-10-27T17:39:58,East,Ottawa
+1912,premium,2024-04-28T17:39:58,East,Philadelphia
+1913,casual,2021-12-20T17:39:58,East,New York
+1914,loyal,2023-06-10T17:39:58,East,Ottawa
+1915,casual,2024-04-09T17:39:58,East,Toronto
+1916,casual,2025-02-01T17:39:58,West,Portland
+1917,premium,2022-04-05T17:39:58,Central,Kansas City
+1918,casual,2022-05-14T17:39:58,East,New York
+1919,bargain,2022-05-06T17:39:58,Central,Chicago
+1920,loyal,2022-04-09T17:39:58,Central,Denver
+1921,bargain,2023-10-15T17:39:58,Central,Chicago
+1922,loyal,2022-08-31T17:39:58,East,Boston
+1923,casual,2024-12-24T17:39:58,East,Boston
+1924,casual,2023-10-22T17:39:58,East,Toronto
+1925,loyal,2022-10-11T17:39:58,Central,Dallas
+1926,casual,2023-12-28T17:39:58,West,San Jose
+1927,loyal,2025-05-21T17:39:58,East,Ottawa
+1928,casual,2021-09-19T17:39:58,Central,Minneapolis
+1929,loyal,2022-11-24T17:39:58,East,Montreal
+1930,bargain,2023-12-12T17:39:58,West,San Francisco
+1931,casual,2023-09-17T17:39:58,Central,Denver
+1932,bargain,2024-04-26T17:39:58,East,Boston
+1933,bargain,2022-11-05T17:39:58,West,Seattle
+1934,premium,2024-09-07T17:39:58,Central,Kansas City
+1935,casual,2023-09-08T17:39:58,East,Toronto
+1936,casual,2023-05-21T17:39:58,Central,Houston
+1937,casual,2023-12-29T17:39:58,East,Ottawa
+1938,casual,2022-07-04T17:39:58,West,Calgary
+1939,bargain,2022-04-29T17:39:58,West,Portland
+1940,casual,2023-11-16T17:39:58,West,Calgary
+1941,casual,2024-10-22T17:39:58,West,San Jose
+1942,casual,2024-10-07T17:39:58,Central,Houston
+1943,casual,2021-12-05T17:39:58,East,Boston
+1944,loyal,2025-01-03T17:39:58,East,Montreal
+1945,loyal,2023-03-09T17:39:58,West,San Francisco
+1946,casual,2025-01-15T17:39:58,West,Vancouver
+1947,casual,2025-04-14T17:39:58,Central,Dallas
+1948,loyal,2023-09-06T17:39:58,East,Ottawa
+1949,casual,2023-04-25T17:39:58,West,Calgary
+1950,casual,2023-05-10T17:39:58,West,Seattle
+1951,loyal,2024-08-11T17:39:58,East,Montreal
+1952,loyal,2021-10-26T17:39:58,Central,Kansas City
+1953,casual,2023-06-09T17:39:58,Central,Kansas City
+1954,casual,2023-07-09T17:39:58,East,Toronto
+1955,casual,2024-11-23T17:39:58,West,Vancouver
+1956,casual,2024-04-26T17:39:58,East,Montreal
+1957,casual,2022-11-21T17:39:58,East,Montreal
+1958,casual,2022-04-03T17:39:58,East,New York
+1959,casual,2023-02-23T17:39:58,Central,Kansas City
+1960,casual,2023-10-03T17:39:58,West,Vancouver
+1961,bargain,2023-04-22T17:39:58,East,Boston
+1962,bargain,2022-06-18T17:39:58,West,San Francisco
+1963,loyal,2025-03-22T17:39:58,East,Toronto
+1964,casual,2021-12-04T17:39:58,East,Montreal
+1965,casual,2024-12-02T17:39:58,West,Calgary
+1966,casual,2024-07-27T17:39:58,East,Ottawa
+1967,casual,2024-11-21T17:39:58,Central,Houston
+1968,casual,2021-12-02T17:39:58,East,Boston
+1969,casual,2025-05-20T17:39:58,East,Philadelphia
+1970,casual,2023-11-27T17:39:58,West,San Jose
+1971,premium,2023-03-17T17:39:58,East,Boston
+1972,casual,2024-03-09T17:39:58,East,New York
+1973,loyal,2021-11-19T17:39:58,East,Philadelphia
+1974,loyal,2022-10-30T17:39:58,West,San Jose
+1975,loyal,2022-03-07T17:39:58,East,Philadelphia
+1976,loyal,2025-01-09T17:39:58,West,Calgary
+1977,casual,2025-05-16T17:39:58,West,Seattle
+1978,loyal,2024-10-29T17:39:58,Central,Dallas
+1979,casual,2023-07-26T17:39:58,West,San Jose
+1980,casual,2023-03-19T17:39:58,East,Montreal
+1981,loyal,2023-06-10T17:39:58,Central,Houston
+1982,casual,2023-01-08T17:39:58,West,San Francisco
+1983,premium,2023-03-12T17:39:58,Central,Kansas City
+1984,casual,2024-06-08T17:39:58,West,San Jose
+1985,loyal,2022-01-11T17:39:58,East,Philadelphia
+1986,loyal,2023-06-29T17:39:58,West,Calgary
+1987,casual,2022-03-10T17:39:58,East,Montreal
+1988,casual,2023-02-23T17:39:58,West,Portland
+1989,casual,2025-02-22T17:39:58,East,Boston
+1990,loyal,2021-09-29T17:39:58,East,New York
+1991,casual,2021-12-27T17:39:58,West,Portland
+1992,bargain,2024-10-04T17:39:58,Central,Houston
+1993,casual,2025-07-10T17:39:58,West,Portland
+1994,bargain,2024-12-27T17:39:58,West,San Francisco
+1995,bargain,2022-08-17T17:39:58,West,Seattle
+1996,casual,2022-11-01T17:39:58,Central,Minneapolis
+1997,bargain,2022-05-16T17:39:58,Central,Kansas City
+1998,casual,2022-03-04T17:39:58,East,Philadelphia
+1999,premium,2023-10-18T17:39:58,West,Seattle
+2000,bargain,2023-08-24T17:39:58,Central,Dallas

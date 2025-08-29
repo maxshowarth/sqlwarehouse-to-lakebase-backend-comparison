@@ -1,0 +1,11 @@
+store_id,name,region,city,latitude,longitude,opened_date
+1,Store 001,East,New York,40.150065,-76.524736,2024-03-17
+2,Store 002,West,Calgary,38.28119,-121.648331,2022-05-28
+3,Store 003,West,San Jose,42.274023,-123.425507,2024-03-27
+4,Store 004,West,San Jose,44.525234,-122.096887,2021-06-12
+5,Store 005,East,Ottawa,43.269649,-77.016034,2022-02-27
+6,Store 006,Central,Denver,41.864496,-103.924429,2023-02-03
+7,Store 007,Central,Houston,34.021233,-93.55623,2023-07-29
+8,Store 008,West,Vancouver,41.749091,-122.602552,2023-07-14
+9,Store 009,East,Philadelphia,44.84277,-72.432414,2022-06-15
+10,Store 010,West,San Francisco,37.985002,-122.767054,2021-12-08

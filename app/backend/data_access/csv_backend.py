@@ -42,17 +42,68 @@ class CsvDataAccess(DataAccess):
         if data_dir is None:
             config = get_config()
             data_dir = config.data_dir
+        
         self.data_dir = Path(data_dir)
+        
+        # If the path is relative, make it relative to the repository root
+        if not self.data_dir.is_absolute():
+            # Try to find the repository root by looking for characteristic files
+            current = Path.cwd()
+            repo_root = None
+            
+            # Look up the directory tree for pyproject.toml or databricks.yml
+            for parent in [current] + list(current.parents):
+                if (parent / "pyproject.toml").exists() or (parent / "databricks.yml").exists():
+                    repo_root = parent
+                    break
+            
+            if repo_root:
+                self.data_dir = repo_root / self.data_dir
+            else:
+                # Fallback to current directory
+                self.data_dir = current / self.data_dir
+        
         self._tables = self._load_tables(self.data_dir)
 
     # ---------- loading / join helpers ----------
 
     @staticmethod
     def _load_tables(data_dir: Path) -> _Tables:
-        orders = pd.read_csv(data_dir / "orders.csv", parse_dates=["order_ts"])
-        order_items = pd.read_csv(data_dir / "order_items.csv")
-        products = pd.read_csv(data_dir / "products.csv")
-        stores = pd.read_csv(data_dir / "stores.csv", parse_dates=["opened_date"])
+        # Check if data directory exists
+        if not data_dir.exists():
+            raise FileNotFoundError(
+                f"Data directory not found: {data_dir}\n"
+                f"Please either:\n"
+                f"  1. Generate sample data: python app/backend/seed_data.py\n"
+                f"  2. Set DATA_DIR environment variable to point to your data directory\n"
+                f"  3. Create a .env file with DATA_DIR=/path/to/your/data"
+            )
+        
+        # Required CSV files
+        required_files = ["orders.csv", "order_items.csv", "products.csv", "stores.csv"]
+        missing_files = [f for f in required_files if not (data_dir / f).exists()]
+        
+        if missing_files:
+            raise FileNotFoundError(
+                f"Required CSV files missing in {data_dir}:\n"
+                f"  Missing: {', '.join(missing_files)}\n"
+                f"  Expected files: {', '.join(required_files)}\n\n"
+                f"Please either:\n"
+                f"  1. Generate sample data: python app/backend/seed_data.py\n"
+                f"  2. Ensure your data directory contains all required CSV files\n"
+                f"  3. Set DATA_DIR environment variable to point to a directory with the required files"
+            )
+        
+        try:
+            orders = pd.read_csv(data_dir / "orders.csv", parse_dates=["order_ts"])
+            order_items = pd.read_csv(data_dir / "order_items.csv")
+            products = pd.read_csv(data_dir / "products.csv")
+            stores = pd.read_csv(data_dir / "stores.csv", parse_dates=["opened_date"])
+        except Exception as e:
+            raise RuntimeError(
+                f"Error reading CSV files from {data_dir}: {e}\n"
+                f"Please check that the CSV files are valid and readable."
+            ) from e
 
         # Normalize names to avoid collisions
         products = products.rename(columns={"name": "product_name"})
