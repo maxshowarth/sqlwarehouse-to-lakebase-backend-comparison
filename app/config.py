@@ -23,6 +23,22 @@ class AppConfig(BaseSettings):
     # Application
     app_env: str = "local"
     log_level: str = "DEBUG"
+    
+    # Data paths
+    data_dir: str = "sample_data"
+    
+    # UI settings
+    default_row_limit: int = 2000
+    min_row_limit: int = 100
+    max_row_limit: int = 100000
+    default_top_n: int = 10
+    min_top_n: int = 5
+    max_top_n: int = 30
+    
+    # Seed data settings
+    default_seed_scale: str = "small"
+    default_seed_days: int = 14
+    default_seed_value: int = 42
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 

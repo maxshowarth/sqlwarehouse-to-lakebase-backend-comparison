@@ -1,0 +1,201 @@
+product_id,sku,name,category,brand,base_price
+1,UZBIKCID,BeanWorks Beverages 176,Beverages,BeanWorks,8.16
+2,MYZYCWTI,BeanWorks Beverages 957,Beverages,BeanWorks,12.96
+3,Y41IBLJH,H2Only Beverages 227,Beverages,H2Only,25.51
+4,O6QJIUJV,Leaf&Lime Beverages 380,Beverages,Leaf&Lime,27.04
+5,9ER14FFY,H2Only Beverages 400,Beverages,H2Only,18.3
+6,T84AZYTJ,Leaf&Lime Beverages 310,Beverages,Leaf&Lime,19.39
+7,FAZZ81SD,Leaf&Lime Beverages 166,Beverages,Leaf&Lime,18.18
+8,1T2TALA7,BeanWorks Beverages 255,Beverages,BeanWorks,23.83
+9,IUC039TE,SparkleCo Beverages 281,Beverages,SparkleCo,19.13
+10,871YZOYN,Leaf&Lime Beverages 133,Beverages,Leaf&Lime,27.09
+11,IMVIHCWI,H2Only Beverages 82,Beverages,H2Only,24.53
+12,KRT05UIR,H2Only Beverages 109,Beverages,H2Only,12.68
+13,MO5BXXC0,Leaf&Lime Beverages 264,Beverages,Leaf&Lime,23.98
+14,GQPKI7P5,H2Only Beverages 677,Beverages,H2Only,16.79
+15,874FRHOC,SparkleCo Beverages 281,Beverages,SparkleCo,11.99
+16,KZ02XRGH,Leaf&Lime Beverages 775,Beverages,Leaf&Lime,2.67
+17,CVS4F8CG,BeanWorks Beverages 423,Beverages,BeanWorks,17.34
+18,7UUBCXUL,SparkleCo Beverages 254,Beverages,SparkleCo,7.71
+19,OYKL1CQ9,BeanWorks Beverages 560,Beverages,BeanWorks,29.59
+20,SEMCIKPT,H2Only Beverages 693,Beverages,H2Only,9.68
+21,7D5J60FK,BeanWorks Beverages 218,Beverages,BeanWorks,6.4
+22,SJ6BW3BM,BeanWorks Beverages 175,Beverages,BeanWorks,4.31
+23,TPAC56T4,Leaf&Lime Beverages 450,Beverages,Leaf&Lime,17.0
+24,BN78BMYY,H2Only Beverages 645,Beverages,H2Only,11.26
+25,7IF2GOG7,H2Only Beverages 831,Beverages,H2Only,23.69
+26,J2D54I3Q,H2Only Beverages 238,Beverages,H2Only,9.36
+27,XOKC1MSY,SparkleCo Beverages 971,Beverages,SparkleCo,22.92
+28,E8G8JDP0,SparkleCo Beverages 404,Beverages,SparkleCo,10.0
+29,JZA7TZ0Y,H2Only Beverages 981,Beverages,H2Only,11.45
+30,WXE6SYLZ,BeanWorks Beverages 440,Beverages,BeanWorks,16.22
+31,Y6WKTAKP,Leaf&Lime Beverages 486,Beverages,Leaf&Lime,16.04
+32,PHR62GDS,Leaf&Lime Beverages 105,Beverages,Leaf&Lime,17.42
+33,YIHAIR4C,H2Only Beverages 745,Beverages,H2Only,12.37
+34,RIXA11DP,SaltyWave Snacks 61,Snacks,SaltyWave,6.1
+35,7EEQTUL1,NuttyBuddy Snacks 860,Snacks,NuttyBuddy,13.83
+36,60RJIW1S,SaltyWave Snacks 460,Snacks,SaltyWave,17.26
+37,ZIM6CFNF,CrunchLabs Snacks 427,Snacks,CrunchLabs,7.2
+38,TOHP6VZ4,SweetTreats Snacks 498,Snacks,SweetTreats,23.2
+39,7KO64T02,CrunchLabs Snacks 234,Snacks,CrunchLabs,27.04
+40,PBMYOFQE,SweetTreats Snacks 938,Snacks,SweetTreats,18.85
+41,VXDP5GJL,SaltyWave Snacks 789,Snacks,SaltyWave,12.77
+42,K8P4Q0B8,SaltyWave Snacks 809,Snacks,SaltyWave,7.43
+43,18HAFEYU,CrunchLabs Snacks 795,Snacks,CrunchLabs,6.59
+44,GV0E38DA,SweetTreats Snacks 416,Snacks,SweetTreats,10.05
+45,CYWD14VE,NuttyBuddy Snacks 365,Snacks,NuttyBuddy,29.24
+46,XCXAPRPN,SaltyWave Snacks 734,Snacks,SaltyWave,26.86
+47,P08J3TRP,NuttyBuddy Snacks 340,Snacks,NuttyBuddy,19.98
+48,3D5IQVNB,NuttyBuddy Snacks 509,Snacks,NuttyBuddy,24.39
+49,MJKV5USG,NuttyBuddy Snacks 510,Snacks,NuttyBuddy,8.0
+50,YXR2DHYL,NuttyBuddy Snacks 576,Snacks,NuttyBuddy,17.87
+51,P0LZJJEG,SweetTreats Snacks 206,Snacks,SweetTreats,4.24
+52,0JV1V93K,NuttyBuddy Snacks 24,Snacks,NuttyBuddy,10.32
+53,J9TZE5R5,NuttyBuddy Snacks 500,Snacks,NuttyBuddy,17.65
+54,M8J5ECRU,SaltyWave Snacks 162,Snacks,SaltyWave,19.86
+55,DIUOVW1N,SweetTreats Snacks 890,Snacks,SweetTreats,24.61
+56,KWV08HHX,SaltyWave Snacks 575,Snacks,SaltyWave,5.28
+57,FOYQBKK4,CrunchLabs Snacks 956,Snacks,CrunchLabs,2.91
+58,2WX7PTX6,SweetTreats Snacks 71,Snacks,SweetTreats,24.72
+59,2V37PQKO,NuttyBuddy Snacks 458,Snacks,NuttyBuddy,8.9
+60,V60VAIY4,CrunchLabs Snacks 793,Snacks,CrunchLabs,17.85
+61,U1GSPK9P,SweetTreats Snacks 491,Snacks,SweetTreats,24.37
+62,OLDFORXO,SweetTreats Snacks 475,Snacks,SweetTreats,22.82
+63,LL8OS9XT,CrunchLabs Snacks 540,Snacks,CrunchLabs,12.33
+64,WRPBJEK5,SweetTreats Snacks 655,Snacks,SweetTreats,14.91
+65,ZLAOI4E8,NuttyBuddy Snacks 520,Snacks,NuttyBuddy,18.79
+66,SJ49ITN7,SweetTreats Snacks 894,Snacks,SweetTreats,14.95
+67,J2O7S3KK,HomeGuard Household 896,Household,HomeGuard,18.02
+68,QRL1N759,ShinePro Household 249,Household,ShinePro,7.93
+69,B0Z3NX39,FreshNest Household 139,Household,FreshNest,15.21
+70,55PSQ0OX,EcoClean Household 810,Household,EcoClean,5.48
+71,MYX444NL,EcoClean Household 903,Household,EcoClean,21.84
+72,WIYKID91,HomeGuard Household 464,Household,HomeGuard,21.2
+73,Y6B2KNFT,ShinePro Household 184,Household,ShinePro,16.54
+74,C5WI6FQJ,ShinePro Household 930,Household,ShinePro,8.32
+75,6YFPMVXP,FreshNest Household 213,Household,FreshNest,7.43
+76,4DNMKZA3,FreshNest Household 589,Household,FreshNest,12.35
+77,60361I2H,HomeGuard Household 704,Household,HomeGuard,5.86
+78,W6XLPU0D,ShinePro Household 189,Household,ShinePro,9.56
+79,ET8T63J3,ShinePro Household 774,Household,ShinePro,13.48
+80,2QC1IYYO,EcoClean Household 102,Household,EcoClean,22.97
+81,ATQYYV37,FreshNest Household 492,Household,FreshNest,3.93
+82,W7LVXWQZ,HomeGuard Household 153,Household,HomeGuard,19.63
+83,8KRD5EQY,HomeGuard Household 611,Household,HomeGuard,22.55
+84,5X4W7KYH,ShinePro Household 885,Household,ShinePro,13.2
+85,DYT9MOGE,EcoClean Household 103,Household,EcoClean,25.59
+86,XVA2IEUC,ShinePro Household 610,Household,ShinePro,22.03
+87,3I12VJ99,ShinePro Household 122,Household,ShinePro,15.83
+88,EM2VAJEP,HomeGuard Household 497,Household,HomeGuard,4.25
+89,2SDS8B25,FreshNest Household 668,Household,FreshNest,16.12
+90,CROYR6CC,HomeGuard Household 139,Household,HomeGuard,18.45
+91,WVZNVKSP,EcoClean Household 883,Household,EcoClean,23.76
+92,P5O3O0LL,ShinePro Household 713,Household,ShinePro,7.97
+93,C3DD03UV,FreshNest Household 696,Household,FreshNest,15.56
+94,O57P6BKL,HomeGuard Household 168,Household,HomeGuard,3.8
+95,ID4N1U34,FreshNest Household 633,Household,FreshNest,28.97
+96,BJ17MGFX,EcoClean Household 103,Household,EcoClean,2.99
+97,NQFLL7V5,ShinePro Household 700,Household,ShinePro,5.46
+98,JXRPJ1EP,HomeGuard Household 549,Household,HomeGuard,9.21
+99,BOVAKHEJ,EcoClean Household 519,Household,EcoClean,10.41
+100,GNZS43C5,Wellness+ Personal Care 480,Personal Care,Wellness+,2.2
+101,5UUZPEAL,GlowCare Personal Care 861,Personal Care,GlowCare,24.24
+102,D4IVSOLM,DailyZen Personal Care 88,Personal Care,DailyZen,10.13
+103,TG1M8XFD,GlowCare Personal Care 626,Personal Care,GlowCare,8.0
+104,1XG1R11Q,PureForm Personal Care 894,Personal Care,PureForm,25.02
+105,FCPKJCSL,DailyZen Personal Care 387,Personal Care,DailyZen,13.96
+106,C54WSQT2,DailyZen Personal Care 940,Personal Care,DailyZen,26.98
+107,LRFCD6MZ,PureForm Personal Care 50,Personal Care,PureForm,14.85
+108,Z9SVN7N1,PureForm Personal Care 818,Personal Care,PureForm,20.48
+109,CDYK0X65,DailyZen Personal Care 948,Personal Care,DailyZen,10.13
+110,LXXEZDUX,DailyZen Personal Care 696,Personal Care,DailyZen,10.0
+111,XPNNGH8R,GlowCare Personal Care 168,Personal Care,GlowCare,7.19
+112,K2ST0SX5,GlowCare Personal Care 167,Personal Care,GlowCare,18.92
+113,GYW6ZBNZ,PureForm Personal Care 780,Personal Care,PureForm,26.21
+114,II826GYU,Wellness+ Personal Care 806,Personal Care,Wellness+,12.4
+115,SPFHV5BR,Wellness+ Personal Care 738,Personal Care,Wellness+,11.65
+116,K1J6FP8H,GlowCare Personal Care 962,Personal Care,GlowCare,12.67
+117,OONNCILD,GlowCare Personal Care 820,Personal Care,GlowCare,19.55
+118,EK3ZEZQA,PureForm Personal Care 230,Personal Care,PureForm,2.97
+119,T0SEKKBP,PureForm Personal Care 74,Personal Care,PureForm,24.02
+120,4RTWUZKA,GlowCare Personal Care 201,Personal Care,GlowCare,11.23
+121,SM8T2SA5,GlowCare Personal Care 392,Personal Care,GlowCare,2.26
+122,0MCIXDU1,DailyZen Personal Care 569,Personal Care,DailyZen,4.38
+123,3G2QZW3C,DailyZen Personal Care 47,Personal Care,DailyZen,23.51
+124,H25LLO3R,DailyZen Personal Care 302,Personal Care,DailyZen,1.96
+125,5BXJ2POP,DailyZen Personal Care 201,Personal Care,DailyZen,25.86
+126,YN2JCPP9,Wellness+ Personal Care 338,Personal Care,Wellness+,5.61
+127,CXLVPYMB,GlowCare Personal Care 639,Personal Care,GlowCare,23.61
+128,J98CWN2Y,Wellness+ Personal Care 879,Personal Care,Wellness+,27.2
+129,BC2NNUVY,Wellness+ Personal Care 464,Personal Care,Wellness+,25.66
+130,UTOXIE0R,GlowCare Personal Care 278,Personal Care,GlowCare,12.1
+131,ZHWY9HEC,DailyZen Personal Care 99,Personal Care,DailyZen,6.01
+132,YZTKKFZZ,DailyZen Personal Care 530,Personal Care,DailyZen,5.44
+133,EHE2ATN2,GreenFields Produce 77,Produce,GreenFields,16.83
+134,OZROOUEL,SunValley Produce 706,Produce,SunValley,3.15
+135,M52XG8P6,OrchardPrime Produce 540,Produce,OrchardPrime,2.58
+136,KF7I8SKC,GreenFields Produce 138,Produce,GreenFields,6.02
+137,KTSG7FXZ,OrchardPrime Produce 855,Produce,OrchardPrime,18.36
+138,C81JHUWB,GreenFields Produce 667,Produce,GreenFields,24.1
+139,R2YKCCPR,SunValley Produce 330,Produce,SunValley,6.57
+140,L9MO1SDI,OrchardPrime Produce 263,Produce,OrchardPrime,4.55
+141,DKNWI5FL,GreenFields Produce 204,Produce,GreenFields,15.98
+142,RSRLA8S8,GreenFields Produce 59,Produce,GreenFields,6.52
+143,KV4YKADE,GreenFields Produce 792,Produce,GreenFields,7.8
+144,NOUHTCS1,SunValley Produce 141,Produce,SunValley,9.02
+145,O2M71HSS,GreenFields Produce 740,Produce,GreenFields,2.2
+146,2SF6F7LO,SunValley Produce 617,Produce,SunValley,16.99
+147,SSRURALD,SunValley Produce 825,Produce,SunValley,11.77
+148,5WVJX8UI,OrchardPrime Produce 184,Produce,OrchardPrime,2.49
+149,WW4FYB8D,OrchardPrime Produce 438,Produce,OrchardPrime,1.39
+150,OHSWQ40Z,GreenFields Produce 688,Produce,GreenFields,14.44
+151,SLG6MM1Z,SunValley Produce 634,Produce,SunValley,17.69
+152,GIUI9KKH,SunValley Produce 501,Produce,SunValley,19.3
+153,U7ZKUT6O,SunValley Produce 307,Produce,SunValley,10.46
+154,KZMPJRHT,GreenFields Produce 150,Produce,GreenFields,25.25
+155,WVIYTWBO,GreenFields Produce 707,Produce,GreenFields,21.59
+156,AT7O75RH,GreenFields Produce 302,Produce,GreenFields,26.06
+157,C1XI04B7,OrchardPrime Produce 966,Produce,OrchardPrime,12.46
+158,9OR7875A,GreenFields Produce 960,Produce,GreenFields,17.3
+159,K9TR74QG,SunValley Produce 758,Produce,SunValley,4.05
+160,XZAMKYGV,SunValley Produce 856,Produce,SunValley,19.52
+161,SDYGFLIJ,SunValley Produce 986,Produce,SunValley,7.05
+162,K0AXYCEL,SunValley Produce 716,Produce,SunValley,11.48
+163,W7NH8RQ9,GreenFields Produce 785,Produce,GreenFields,11.84
+164,231YV2ST,OrchardPrime Produce 73,Produce,OrchardPrime,11.38
+165,6HTF4PYZ,OrchardPrime Produce 838,Produce,OrchardPrime,15.18
+166,QSQCQ30O,ArcticBite Frozen 602,Frozen,ArcticBite,23.44
+167,BMC97C7B,ArcticBite Frozen 794,Frozen,ArcticBite,12.21
+168,9XP9N56N,CoolCuisine Frozen 679,Frozen,CoolCuisine,19.76
+169,E9OE9419,FrostyFarm Frozen 554,Frozen,FrostyFarm,14.43
+170,3IMJ70E3,FrostyFarm Frozen 256,Frozen,FrostyFarm,13.03
+171,CVQY5IBP,ArcticBite Frozen 153,Frozen,ArcticBite,16.49
+172,9I6UU13I,CoolCuisine Frozen 433,Frozen,CoolCuisine,25.09
+173,JUV0GYUB,FrostyFarm Frozen 814,Frozen,FrostyFarm,10.99
+174,LOFN1R4K,CoolCuisine Frozen 946,Frozen,CoolCuisine,21.52
+175,U8UEIHX7,ArcticBite Frozen 558,Frozen,ArcticBite,25.31
+176,3BNVBC2V,CoolCuisine Frozen 500,Frozen,CoolCuisine,19.45
+177,5L8A78E9,ArcticBite Frozen 722,Frozen,ArcticBite,14.14
+178,ZOILKQXL,CoolCuisine Frozen 487,Frozen,CoolCuisine,11.43
+179,201LHLB5,ArcticBite Frozen 277,Frozen,ArcticBite,22.27
+180,7UPFLN4R,CoolCuisine Frozen 273,Frozen,CoolCuisine,17.99
+181,8XRG2GZR,FrostyFarm Frozen 546,Frozen,FrostyFarm,27.31
+182,4C3BAEWC,ArcticBite Frozen 527,Frozen,ArcticBite,5.11
+183,NWYWRRAT,FrostyFarm Frozen 558,Frozen,FrostyFarm,1.21
+184,A3Y36DDF,FrostyFarm Frozen 844,Frozen,FrostyFarm,5.91
+185,JONOU9IY,FrostyFarm Frozen 105,Frozen,FrostyFarm,25.33
+186,NTCAGRP2,FrostyFarm Frozen 926,Frozen,FrostyFarm,17.24
+187,7I6YUJ7Y,CoolCuisine Frozen 193,Frozen,CoolCuisine,9.04
+188,AHF337KU,FrostyFarm Frozen 703,Frozen,FrostyFarm,17.43
+189,L1F90S9B,CoolCuisine Frozen 358,Frozen,CoolCuisine,13.54
+190,18O1BJ9R,CoolCuisine Frozen 452,Frozen,CoolCuisine,11.32
+191,YXDW2ZCF,ArcticBite Frozen 767,Frozen,ArcticBite,20.56
+192,LDALMJEG,FrostyFarm Frozen 115,Frozen,FrostyFarm,14.02
+193,DTV25AO2,ArcticBite Frozen 595,Frozen,ArcticBite,20.92
+194,GNEKRCPP,CoolCuisine Frozen 379,Frozen,CoolCuisine,14.89
+195,7ZRWQEAO,FrostyFarm Frozen 833,Frozen,FrostyFarm,25.41
+196,PP3XVKVZ,FrostyFarm Frozen 997,Frozen,FrostyFarm,14.15
+197,8KZRUIN3,FrostyFarm Frozen 964,Frozen,FrostyFarm,12.27
+198,H9G1A07H,CoolCuisine Frozen 848,Frozen,CoolCuisine,23.89
+199,FKJFPNQV,Wellness+ Personal Care 606,Personal Care,Wellness+,12.62
+200,PB8Z3V6D,OrchardPrime Produce 264,Produce,OrchardPrime,20.07

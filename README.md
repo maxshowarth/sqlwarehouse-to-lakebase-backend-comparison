@@ -21,7 +21,7 @@ It creates multiple CSVs in `sample_data/`, including stores, products, customer
 
 ```bash
 # From repo root
-uv run src/seed/seed_data.py --scale small --days 14
+uv run app/backend/seed_data.py --scale small --days 14
 ```
 
 Output looks like:
@@ -39,11 +39,52 @@ Scales available: `small`, `medium`, `large`.
 
 ## Running the App Locally
 
-The Streamlit app reads directly from the CSVs under `sample_data/`.
+The Streamlit app reads directly from CSV files. You can either use the generated sample data or point to your own data directory.
+
+### Using Sample Data
+
+Generate sample data first:
+
+```bash
+# From repo root
+python app/backend/seed_data.py --scale small --days 14
+```
+
+Then run the app:
 
 ```bash
 databricks apps run-local --prepare-environment --debug
 ```
+
+### Using Your Own Data Directory
+
+You can specify a custom data directory using the `DATA_DIR` environment variable:
+
+#### Option 1: Environment Variable
+```bash
+export DATA_DIR="/path/to/your/data"
+databricks apps run-local --prepare-environment --debug
+```
+
+#### Option 2: .env File
+Create a `.env` file in the repository root:
+```env
+DATA_DIR=/path/to/your/data
+```
+
+#### Option 3: Relative Path
+If your data is in a subdirectory of the repository:
+```bash
+export DATA_DIR="my_data_folder"
+```
+
+### Required CSV Files
+
+Your data directory must contain these CSV files:
+- `orders.csv` - Order records with columns: order_id, store_id, customer_id, order_ts, payment_type, discount_pct
+- `order_items.csv` - Order line items with columns: order_id, line_number, product_id, qty, unit_price, extended_price
+- `products.csv` - Product catalog with columns: product_id, sku, name, category, brand, base_price
+- `stores.csv` - Store locations with columns: store_id, name, region, city, latitude, longitude, opened_date
 
 Open the provided local URL in your browser.
 

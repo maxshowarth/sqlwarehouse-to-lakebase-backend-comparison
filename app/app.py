@@ -5,6 +5,9 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+# Configuration
+from config import get_config
+
 # DataAccess interface + CSV implementation
 from backend.data_access.csv_backend import CsvDataAccess  # conforms to DataAccess
 # (If you later add a factory, you can switch to: from data_access.util import get_data_access)
@@ -12,9 +15,10 @@ from backend.data_access.csv_backend import CsvDataAccess  # conforms to DataAcc
 st.set_page_config(page_title="Store Orders — CSV via DataAccess", layout="wide")
 
 # -----------------------------------------------------------------------------
-# Backend selection (CSV for now). We point at your existing folder:
+# Backend selection (CSV for now). We point at your configured data directory:
 # -----------------------------------------------------------------------------
-DATA_DIR = Path("backend/sample_data")
+config = get_config()
+DATA_DIR = Path(config.data_dir)
 da = CsvDataAccess(data_dir=DATA_DIR)
 
 # -----------------------------------------------------------------------------
@@ -36,7 +40,13 @@ cat_sel = st.sidebar.selectbox("Category", cat_options)
 
 prod_search = st.sidebar.text_input("Product search (contains)")
 
-row_limit = st.sidebar.number_input("Max table rows", min_value=100, max_value=100000, value=2000, step=100)
+row_limit = st.sidebar.number_input(
+    "Max table rows", 
+    min_value=config.min_row_limit, 
+    max_value=config.max_row_limit, 
+    value=config.default_row_limit, 
+    step=100
+)
 slice_by = st.sidebar.radio("Slice chart by", ["None", "store", "category", "hour"], horizontal=True)
 
 # Normalize filters for the backend
@@ -129,7 +139,13 @@ rev_region = (
 st.bar_chart(rev_region, x="region", y="revenue", use_container_width=True)
 
 st.markdown("### Top products by revenue")
-top_n_rev = st.sidebar.slider("Top N (revenue)", min_value=5, max_value=30, value=10, step=1)
+top_n_rev = st.sidebar.slider(
+    "Top N (revenue)", 
+    min_value=config.min_top_n, 
+    max_value=config.max_top_n, 
+    value=config.default_top_n, 
+    step=1
+)
 top_prod_rev = (
     orders_df.groupby("product_name", as_index=False)["extended_price"].sum()
              .rename(columns={"extended_price": "revenue"})
@@ -143,8 +159,8 @@ st.bar_chart(top_prod_rev, x="product_name", y="revenue", use_container_width=Tr
 # -----------------------------------------------------------------------------
 with st.expander("Data source & architecture"):
     st.write(
-        "This page now reads data via a **DataAccess** interface (CSV-backed for local dev) "
-        "from `backend/sample_data/`. The UI is decoupled from the data source, so we can later "
+        f"This page now reads data via a **DataAccess** interface (CSV-backed for local dev) "
+        f"from `{config.data_dir}/`. The UI is decoupled from the data source, so we can later "
         "swap to **SQL Warehouse** or **Lakebase** by changing the implementation behind the interface."
     )
 
