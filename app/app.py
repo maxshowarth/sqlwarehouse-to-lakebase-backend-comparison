@@ -9,7 +9,7 @@ import streamlit as st
 from config import get_config
 
 # DataAccess interface + CSV implementation
-from backend.data_access.csv_backend import CsvDataAccess  # conforms to DataAccess
+from data.backends.csv_backend import CsvDataAccess  # conforms to DataAccess
 # (If you later add a factory, you can switch to: from data_access.util import get_data_access)
 
 st.set_page_config(page_title="Store Orders — CSV via DataAccess", layout="wide")

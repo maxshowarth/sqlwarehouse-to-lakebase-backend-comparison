@@ -2,12 +2,12 @@ from __future__ import annotations
 
 from typing import Literal
 
-from .csv_backend import CsvDataAccess
+from .backends.csv_backend import CsvDataAccess
 from .interface import DataAccess
 
 # Import config for getting data directory
 try:
-    from ...config import get_config
+    from ..config import get_config
 except ImportError:
     # Fallback for relative imports
     import sys
