@@ -34,12 +34,6 @@ from .models import (
 
 # ---- Types returned to the UI ----
 
-class KpiTotals(BaseModel):
-    """Aggregate KPIs computed server-side for the current filter set."""
-    orders_distinct: int   # DISTINCT orders in the filtered window
-    lines: int             # number of order line rows
-    units: int             # SUM(qty)
-    revenue: float         # SUM(extended_price)
 
 
 # ---- Data access protocol ----
