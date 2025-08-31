@@ -1,16 +1,43 @@
 # This is a Databricks asset bundle definition for sqlwarehouse_to_lakebase_backend_comparison.
 # See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+
 bundle:
   name: sqlwarehouse_to_lakebase_backend_comparison
+
+variables:
+  catalog:
+    default: max_howarth_demos
+  schema:
+    default: sqlw_to_lakebase_backend
 
 resources:
   # Unity Catalog schema resource for demo tables
   schemas:
     demo_schema:
-      name: sqlw-to-lakebase-backend
-      catalog_name: max_howarth_demos
+      name: ${var.schema}
+      catalog_name: ${var.catalog}
       comment: "Schema for the SQL Warehouse vs Lakebase backend comparison demo"
 
+  # Job for generating sample data
+  jobs:
+    generate_sample_data:
+      name: "generate-sample-data"
+      tasks:
+        - task_key: "generate_data"
+          environment_key: "default_python"
+          spark_python_task:
+            python_file: "./pipelines/data_generation/generate_data_job.py"
+            parameters:
+              - ${resources.schemas.demo_schema.catalog_name}
+              - ${resources.schemas.demo_schema.name}
+              - "small"
+              - "14"
+              - "true"
+              - "42"
+      environments:
+        - environment_key: "default_python"
+          spec:
+            client: "1"
   apps:
     sqlw_to_lakebase_backend:
       name: 'sqlw-to-lakebase-backend'

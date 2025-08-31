@@ -1,0 +1,82 @@
+{
+  "pipeline": {
+    "name": "data-generation",
+    "description": "Generate synthetic retail data for demo purposes"
+  },
+  "data_generation": {
+    "default_scale": "small",
+    "default_days": 14,
+    "default_overwrite": true,
+    "default_seed": 42,
+    "scales": {
+      "small": {
+        "description": "Small dataset for development and testing",
+        "stores": 10,
+        "products": 200,
+        "customers": 2000,
+        "orders_estimate": 4000
+      },
+      "medium": {
+        "description": "Medium dataset for demo and presentation",
+        "stores": 50,
+        "products": 1000,
+        "customers": 25000,
+        "orders_estimate": 75000
+      },
+      "large": {
+        "description": "Large dataset for performance testing",
+        "stores": 200,
+        "products": 5000,
+        "customers": 120000,
+        "orders_estimate": 500000
+      }
+    }
+  },
+  "cluster": {
+    "spark_version": "14.3.x-scala2.12",
+    "node_type_id": "Standard_DS3_v2",
+    "num_workers": 1,
+    "spark_conf": {
+      "spark.databricks.delta.schema.autoMerge.enabled": "true"
+    }
+  },
+  "tables": {
+    "stores": {
+      "description": "Store locations and metadata",
+      "columns": ["store_id", "name", "region", "city", "latitude", "longitude", "opened_date"]
+    },
+    "products": {
+      "description": "Product catalog with categories and brands",
+      "columns": ["product_id", "sku", "name", "category", "brand", "base_price"]
+    },
+    "customers": {
+      "description": "Customer segments and demographics",
+      "columns": ["customer_id", "segment", "signup_ts", "home_region", "home_city"]
+    },
+    "promotions": {
+      "description": "Product promotions and discounts",
+      "columns": ["promo_id", "product_id", "start_date", "end_date", "promo_type", "discount_pct"]
+    },
+    "orders": {
+      "description": "Customer orders with timestamps",
+      "columns": ["order_id", "store_id", "customer_id", "order_ts", "payment_type", "discount_pct"]
+    },
+    "order_items": {
+      "description": "Individual line items within orders",
+      "columns": ["order_id", "line_number", "product_id", "qty", "unit_price", "extended_price"]
+    },
+    "inventory_snapshots": {
+      "description": "Daily inventory levels",
+      "columns": ["snapshot_ts", "store_id", "product_id", "on_hand", "on_order", "safety_stock", "reorder_qty"]
+    }
+  },
+  "dependencies": {
+    "stores": [],
+    "products": [],
+    "customers": [],
+    "promotions": ["products"],
+    "orders": ["stores", "customers", "products"],
+    "order_items": ["orders", "products"],
+    "inventory_snapshots": ["stores", "products"]
+  }
+}
