@@ -9,7 +9,7 @@ Entities:
 - stores, products, customers, orders, order_items, inventory_snapshots, promotions
 
 Run:
-  python src/seed/seed_data.py --scale small --days 14
+  python pipelines/data_generation/data_generators.py --scale small --days 14
 """
 
 from __future__ import annotations
