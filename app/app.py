@@ -10,6 +10,7 @@ from config import get_config
 
 # DataAccess interface + CSV implementation
 from data.backends.csv_backend import CsvDataAccess  # conforms to DataAccess
+from data.models import OrderFilters
 # (If you later add a factory, you can switch to: from data_access.util import get_data_access)
 
 st.set_page_config(page_title="Store Orders — CSV via DataAccess", layout="wide")
@@ -41,10 +42,10 @@ cat_sel = st.sidebar.selectbox("Category", cat_options)
 prod_search = st.sidebar.text_input("Product search (contains)")
 
 row_limit = st.sidebar.number_input(
-    "Max table rows", 
-    min_value=config.min_row_limit, 
-    max_value=config.max_row_limit, 
-    value=config.default_row_limit, 
+    "Max table rows",
+    min_value=config.min_row_limit,
+    max_value=config.max_row_limit,
+    value=config.default_row_limit,
     step=100
 )
 slice_by = st.sidebar.radio("Slice chart by", ["None", "store", "category", "hour"], horizontal=True)
@@ -58,14 +59,37 @@ category = None if cat_sel == "(All)" else cat_sel
 # -----------------------------------------------------------------------------
 # Queries via the interface (each interaction triggers fresh calls)
 # -----------------------------------------------------------------------------
+# Individual KPI calls to demonstrate backend performance
 t0 = time.perf_counter()
-kpis = da.get_kpis(start_ts, end_ts, store_name, category, prod_search)
-t_kpis = (time.perf_counter() - t0) * 1000.0
+orders_distinct = da.get_orders_distinct_count(start_ts, end_ts, store_name, category, prod_search)
+t_orders_distinct = (time.perf_counter() - t0) * 1000.0
+
+t0 = time.perf_counter()
+lines_count = da.get_order_lines_count(start_ts, end_ts, store_name, category, prod_search)
+t_lines = (time.perf_counter() - t0) * 1000.0
+
+t0 = time.perf_counter()
+total_units = da.get_total_units(start_ts, end_ts, store_name, category, prod_search)
+t_units = (time.perf_counter() - t0) * 1000.0
+
+t0 = time.perf_counter()
+total_revenue = da.get_total_revenue(start_ts, end_ts, store_name, category, prod_search)
+t_revenue = (time.perf_counter() - t0) * 1000.0
+
+# Create OrderFilters object for the new interface
+order_filters = OrderFilters(
+    start_ts=start_ts,
+    end_ts=end_ts,
+    store_id=None,  # We'll filter by store_name in the legacy method for now
+    customer_id=None,
+    payment_type=None
+)
 
 t0 = time.perf_counter()
 orders_df = da.get_orders(
-    start_ts, end_ts, store_name, category, prod_search,
-    limit=int(row_limit), order_by="order_ts_desc"
+    order_filters,
+    limit=int(row_limit), order_by="order_ts_desc",
+    store_name=store_name, category=category, product_search=prod_search
 )
 t_orders = (time.perf_counter() - t0) * 1000.0
 
@@ -80,16 +104,19 @@ t_counts = (time.perf_counter() - t0) * 1000.0
 # KPIs
 # -----------------------------------------------------------------------------
 c1, c2, c3, c4 = st.columns(4)
-c1.metric("Orders (distinct)", f"{kpis.orders_distinct:,}")
-c2.metric("Lines", f"{kpis.lines:,}")
-c3.metric("Units", f"{kpis.units:,}")
-c4.metric("Revenue", f"${kpis.revenue:,.2f}")
+c1.metric("Orders (distinct)", f"{orders_distinct:,}")
+c2.metric("Lines", f"{lines_count:,}")
+c3.metric("Units", f"{total_units:,}")
+c4.metric("Revenue", f"${total_revenue:,.2f}")
 
 # Optional: tiny latency readout (useful later when comparing backends)
 with st.expander("Query timings (ms)"):
     st.write(
         {
-            "get_kpis": round(t_kpis, 2),
+            "get_orders_distinct": round(t_orders_distinct, 2),
+            "get_order_lines": round(t_lines, 2),
+            "get_total_units": round(t_units, 2),
+            "get_total_revenue": round(t_revenue, 2),
             "get_orders": round(t_orders, 2),
             "get_product_counts": round(t_counts, 2),
         }
@@ -140,10 +167,10 @@ st.bar_chart(rev_region, x="region", y="revenue", use_container_width=True)
 
 st.markdown("### Top products by revenue")
 top_n_rev = st.sidebar.slider(
-    "Top N (revenue)", 
-    min_value=config.min_top_n, 
-    max_value=config.max_top_n, 
-    value=config.default_top_n, 
+    "Top N (revenue)",
+    min_value=config.min_top_n,
+    max_value=config.max_top_n,
+    value=config.default_top_n,
     step=1
 )
 top_prod_rev = (
@@ -161,7 +188,8 @@ with st.expander("Data source & architecture"):
     st.write(
         f"This page now reads data via a **DataAccess** interface (CSV-backed for local dev) "
         f"from `{config.data_dir}/`. The UI is decoupled from the data source, so we can later "
-        "swap to **SQL Warehouse** or **Lakebase** by changing the implementation behind the interface."
+        "swap to **SQL Warehouse** or **Lakebase** by changing the implementation behind the interface. "
+        "Each KPI is now fetched individually to demonstrate backend performance differences."
     )
 
 # -----------------------------------------------------------------------------
