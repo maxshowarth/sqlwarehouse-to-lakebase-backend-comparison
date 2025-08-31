@@ -411,9 +411,9 @@ class CsvDataAccess(DataAccess):
             else:
                 df = df[df["brand"].isin(filters.brand)]
         if filters.price_min is not None:
-            df = df[df["price"] >= filters.price_min]
+            df = df[df["base_price"] >= filters.price_min]
         if filters.price_max is not None:
-            df = df[df["price"] <= filters.price_max]
+            df = df[df["base_price"] <= filters.price_max]
 
         return df
 
